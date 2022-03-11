@@ -1,0 +1,13 @@
+body
+    h1= "Add a product!"
+    form(action="/product" method="POST")
+      p Name:
+      input(type="text" name="name" placeholder="")
+      p Category:
+      select(type="" name="id_category" placeholder="")
+        option(value="0") Select category
+        each category in categories
+          option(value=category.id_category) #{category.name}        
+      p Price:
+      input(type="number" name="price" placeholder="")
+      input(type="submit")

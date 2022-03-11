@@ -1,0 +1,19 @@
+<h2>Penambahan product</h2>
+<div>
+  <label>Product Name:</label><br />
+  <input type="text" [(ngModel)]="products.name" />
+</div>
+<div>
+  <label>Product Category:</label><br />
+  <select [(ngModel)]="products.id_category">
+    <option value="0">Pilih kategori</option>
+    <option *ngFor="let n of productCategories" value="{{ n.id_category }}">
+      {{ n.name }}
+    </option>
+  </select>
+</div>
+<div>
+  <label>Price:</label><br />
+  <input type="number" [(ngModel)]="products.number" />
+</div>
+<button (click)="addProduct()">Simpan</button>
