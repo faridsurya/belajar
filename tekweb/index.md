@@ -18,6 +18,7 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 | Terminologi                       | Deskripsi                                                    |
 | --------------------------------- | ------------------------------------------------------------ |
 | Web page                          | Sebuah dokumen yang dapat ditampilkan dalam sebuah web browser seperti Firefox, Google Chrome, Opera, Microsoft Internet Explorer atau Edge, atau Safari Apple. Ini juga sering disebut dengan istilah "halaman" atau "laman". |
+| Web Site                          | Kumpulan halaman web yang dikelompokkan secara bersama dan biasanya dihubungkan dengan sebuah mekanisme navigasi. Istilah web site juga sering disebut "situs web" atau hanya "situs". |
 | HTML (Hypertext Markup Language)  | Kodifikasi yang memiliki struktur khusus dan digunakan untuk menampilkan dokumen pada halaman web. |
 | Web Server                        | Komputer dengan kemampuan khusus yang menyediakan dokumen-dokumen dan terhubung jaringan internet sehingga dokumen-dokumen tersebut dapat diakses melalui komputer lain yang terhubung dalam jaringan internet. |
 | Web Browser                       | Perangkat lunak komputer yang digunakan untuk mengakses halaman web. |
@@ -25,15 +26,12 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 | Protocol                          |                                                              |
 | Internet Protocol (IP) Address    |                                                              |
 | HTTP                              |                                                              |
-| XML                               |                                                              |
+| HTTPS                             |                                                              |
+| FTP                               |                                                              |
+|                                   |                                                              |
+| DNS                               |                                                              |
 | Gateway                           |                                                              |
 | API                               |                                                              |
 
-## Komponen Utama Web
-
-| Komponen   | Deskripsi                                                    |
-| ---------- | ------------------------------------------------------------ |
-| Web Page   | Sebuah dokumen yang dapat ditampilkan dalam sebuah web browser seperti Firefox, Google Chrome, Opera, Microsoft Internet Explorer atau Edge, atau Safari Apple. Ini juga sering disebut dengan istilah "halaman" atau "laman". |
-| Web Site   | Kumpulan halaman web yang dikelompokkan secara bersama dan biasanya dihubungkan dengan sebuah mekanisme navigasi. Istilah web site juga sering disebut "situs web" atau hanya "situs". |
-| Web Server | Komputer dengan kemampuan khusus yang menyediakan dokumen-dokumen dan terhubung jaringan internet sehingga dokumen-dokumen tersebut dapat diakses melalui komputer lain yang terhubung dalam jaringan internet. |
+## Bagaimana Aplikasi Web Berjalan?
 
