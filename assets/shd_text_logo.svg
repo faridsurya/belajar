@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="176"
+   viewBox="0 0 26.458333 46.566668"
+   version="1.1"
+   id="svg864"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="shd_text_logo.svg">
+  <defs
+     id="defs858" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2821608"
+     inkscape:cx="190"
+     inkscape:cy="164.28571"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata861">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-250.43332)">
+    <path
+       style="opacity:1;fill:#d5e93a;fill-opacity:1;stroke:none;stroke-width:0.21178815;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 5.0626907e-5,290.57256 c 0,3.55417 2.860092473093,6.41539 6.412873173093,6.41539 L 10.013892,297 h 0.01257 c 3.552781,0 6.412865,-2.86122 6.412865,-6.41538 v -1.93782 c 0.108867,-0.88934 0.867055,-1.57401 1.792636,-1.57401 0.932913,0 1.695933,0.69534 1.795252,1.59495 v 7.53923 h 0.0011 c -2.68e-4,0.009 -0.0011,0.0186 -0.0011,0.0282 0,0.42353 0.340576,0.76475 0.763929,0.76476 0.01013,0 0.01913,-0.001 0.02876,-0.002 v 0.002 H 25.6599 v -0.002 c 0.0091,2.8e-4 0.01862,0.002 0.02825,0.002 0.423364,0 0.764466,-0.34071 0.764466,-0.76424 0,-0.0101 -0.0011,-0.0192 -0.0011,-0.0288 h 0.0011 v -9.14673 c 0,-3.55417 -2.860095,-6.41539 -6.412881,-6.41539 h -0.01257 -3.58789 -0.01257 c -3.552772,0 -6.413391,2.86121 -6.413391,6.41539 v 1.91686 c -0.09932,0.89962 -0.8623372,1.59494 -1.7952483,1.59494 -0.9255884,0 -1.683774,-0.68465 -1.7926299,-1.574 V 281.4378 H 6.42433 c 2.683e-4,-0.009 0.00111,-0.0186 0.00111,-0.0283 0,-0.0402 -0.00557,-0.0792 -0.011523,-0.11777 v -1.77816 h 19.197805 v -0.002 c 0.0091,2.7e-4 0.01905,0.002 0.02876,0.002 0.423352,0 0.76393,-0.34123 0.76393,-0.76475 0,-0.0101 -0.0011,-0.0187 -0.0011,-0.0282 h 0.0011 v -4.84191 h -0.0011 c 2.67e-4,-0.009 0.0011,-0.0191 0.0011,-0.0288 0,-0.42352 -0.340578,-0.76424 -0.76393,-0.76424 -0.01013,0 -0.01913,7.5e-4 -0.02876,0.001 v -0.001 H 16.44504 v -3.49924 h 9.2206 v -0.001 c 0.0091,0 0.01913,0.001 0.02876,0.001 0.42336,0 0.763937,-0.34125 0.763937,-0.76477 0,-0.0101 -0.0011,-0.0191 -0.0011,-0.0288 h 0.0011 v -5.63496 -3.31604 c -0.118076,-7.03416 -5.692119,-9.32898 -8.888339,-9.40847 H 8.7188123 c -5.01402,0 -8.63142722,4.16705 -8.63142722,8.66831 0,1.21187 -0.0816207,2.55954 -0.0816207,4.0562 v 5.63492 h 0.00162006 c -3.7464e-4,0.009 -0.00162006,0.0191 -0.00162006,0.0288 -3.04e-6,0.42353 0.34110182,0.76424 0.76445718,0.76424 0.00972,0 0.0192079,-5.4e-4 0.0287763,-5.4e-4 v 5.4e-4 H 10.019596 v 3.49924 H 0.79272016 v 0.002 c -0.009619,-3.7e-4 -0.0185801,-0.002 -0.0282599,-0.002 C 0.34110486,273.08519 0,273.42644 0,273.84996 c 0,0.0101 0.0013163,0.0192 0.00162006,0.0288 H 0 v 2.30631 2.53559 0.0282 2.58689 2.78788 z M 6.43176,263.15799 v -3.25062 c 0.2368884,-2.0655 1.4350288,-2.72527 2.8652835,-3.04595 h 3.0311495 4.807035 c 1.648413,0.32065 2.735262,1.22065 2.897725,3.0758 v 3.22077 z"
+       id="path1047"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsscscccscccccssccssccsscscccsccccssccccssccccccsscccccssscccsccccccsscccccccccccccccc"
+       inkscape:export-filename="/home/farid/Pictures/book_of_imaginations.png"
+       inkscape:export-xdpi="151"
+       inkscape:export-ydpi="151" />
+  </g>
+</svg>
