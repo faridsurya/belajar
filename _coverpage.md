@@ -1,12 +1,5 @@
-![logo](_media/icon.svg)
+# SHD-Lab. <small>1.0</small>
 
-# docsify <small>3.5</small>
+> Sumber belajar dan eksplorasi pengembangan perangkat lunak
 
-> A magical documentation site generator.
-
-- Simple and lightweight
-- No statically built html files
-- Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+Mengelaborasi konsep dan praktek pengembangan perangkat lunak
