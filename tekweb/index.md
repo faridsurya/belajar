@@ -35,3 +35,13 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 
 ## Bagaimana Aplikasi Web Berjalan?
 
+![](../tekweb/images/img_0_1.png)
+
+Gambar di atas menunjukkan skema teknologi web. Terdapat tiga komponen utama yaitu klien, jaringan, dan web server. Klien melakukan permintaan data melalui sebuah domain atau alamat IP yang mengarahkan pada sebuah halaman pada server. Jika alamat tersebut terhubung internet dan data tersedia maka server mengirimkan respon berupa dokumen kepada klien. Dokumen tersebut dapat berupa dokumen HTML, image, XML, JSON, dan beberapa dokumen lain yang dapat ditransmisikan melalui jaringan internet.
+
+ ![](../tekweb/images/img_0_2.png)
+
+
+
+Gambar di atas menunjukkan ilustrasi tentang bagaimana teknologi web berjalan. Orang yang melakukan pesanan diibaratkan sebagai web browser, kurir diibaratkan sebagai jaringan internet, dan toko sebagai web server. Data yang dikirimkan dari klien ke server (request) atau dari server ke klien (response), pada ilustrasi di atas, digambarkan dengan barang-barang yang dibawa oleh kurir.
+
