@@ -1,4 +1,5 @@
 - [Pengantar Teknologi Web](/tekweb/index)
+- [Bagaimana Memulai?](/tekweb/content/introduction/getstarted)
 - **Front End**
 - [Pengantar Pemrograman web sisi klien](/tekweb/content/frontend/1_pengantar)
 - [HTML, CSS, Javascript](/tekweb/content/frontend/2_html_css_javascript)

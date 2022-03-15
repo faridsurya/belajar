@@ -4,4 +4,7 @@
 
 Sumber belajar dan eksplorasi pengembangan perangkat lunak
 
-[github](https://github.com/faridsurya/belajar)
+[Github](https://github.com/faridsurya/belajar) 
+[Mulai Belajar](/intro/welcome)
+
+![color](#f0f0f0)
