@@ -2,7 +2,9 @@
 - [Bagaimana Memulai?](/tekweb/content/introduction/getstarted)
 - **Front End**
 - [Pengantar Pemrograman web sisi klien](/tekweb/content/frontend/1_pengantar)
-- [HTML, CSS, Javascript](/tekweb/content/frontend/2_html_css_javascript)
+- [HTML](/tekweb/content/frontend/2_html)
+- [CSS](/tekweb/content/frontend/3_css)
+- [Javascript](/tekweb/content/frontend/4_javascript)
 - [Document Object Model (DOM)](/tekweb/content/frontend/3_dom)
 - [Front End Frameworks](/tekweb/content/frontend/4_frontend_frameworks)
 - **Back End**
