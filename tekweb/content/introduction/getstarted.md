@@ -13,4 +13,16 @@ Hal pertama yang harus Anda lakukan adalam menyiapkan alat pengembangan web. Ada
 - [VS Code](https://code.visualstudio.com/download) untuk menulis kode-kode program.
 - [XAMPP](https://www.apachefriends.org/download.html) berisi apache untuk penyedia server, untuk database, dan PHP untuk bahasa pemrograman server side.
 - [NodeJS](https://nodejs.org/en/) untuk belajar pembuatan API, membuat aplikasi client side menggunakan Angular, React, atau Vue.
+- NPM (Node Package Manager) atau yarn untuk manajemen pengelolaan paket sumber daya pengembangan berbasis javascript. Alat tersebut sangat berguna untuk melakukan pemasangan sumber daya pendukung pengembangan web. NPM biasanya sudah terinstall satu paket dengan nodeJS.
 - Web browser (Chrome, Mozilla Firefox, Edge, Opera, Safari) untuk menjalankan aplikasi.
+
+## Mempelajari Sistem Kontrol Versi Terdistribusi
+
+Sistem kontrol versi terdistribusi digunakan untuk melakukan manajemen repositori. Repositori ada sebuah paket file yang berisi file-file proyek yang mendukung berjalannya sebuah aplikasi. Sumber terbuka (open source) untuk alat tersebut adalah git. Beberapa pengembang membuat produk berbasis git untuk memberikan layanan kontrol versi yang mudah digunakan, misalnya:
+
+- [Github](https://github.com)
+- [Gitlab](https://gitlab.com)
+- BitBucket
+- SourceForge
+
+Demonstrasi pada materi pengembangan web ini menggunakan github, oleh sebab itu disarankan Anda mempelajari bagaimana mengelola repositori dan membuat halaman menggunakan github. Jangan khawatir, Anda akan diberikan panduan untuk melakukan itu.

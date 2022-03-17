@@ -1,5 +1,6 @@
 - [Pengantar Teknologi Web](/tekweb/index)
 - [Bagaimana Memulai?](/tekweb/content/introduction/getstarted)
+- [Pengelolaan Repositori](/tekweb/content/introduction/github)
 - **Front End**
 - [Pengantar Pemrograman web sisi klien](/tekweb/content/frontend/1_pengantar)
 - [HTML](/tekweb/content/frontend/2_html)

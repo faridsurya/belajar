@@ -7,8 +7,23 @@
 Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 
 - Mendemonstrasikan keterampilan dalam teknologi pengembangan aplikasi sisi klien (Front-end) seperti HTML, CSS, Javascript, dan librari-librari Javascript.
+  - Pengantar Pemrograman web sisi klien
+  - HTML, CSS, Javascript
+  - Document Object Model (DOM)
+  - Penggunaan DOM pada pemrograman web sisi klien
+  - Framework pengembangan web sisi klien
+  - CSS Frameworks: Bootstrap, Tailwind, UI kit, Bulma
+  - Javascript Frameworks: Jquery, Vue, Axios, Konva
 - Mendemonstrasikan keterampilan dalam teknologi pengembangan aplikasi web sisi server menggunakan bahasa pemrograman sisi server seperti Node/Express, Python/Django, dll.
+  - Pengantar Pemrograman web sisi server
+  - Bahasa pemrograman sisi server
+  - PHPLingkungan pengembangan PHP
+  - Node Js/Express
+  - Python dan django
+  - Application Programming Interface (API)
 - Membuat aplikasi web yang berfungsi untuk proses bisnis tertentu menggunakan front-end, back-end, SQL, dan alat pengembangan web terkini.
+  - Full Stack development
+  - Keterampilan untuk membuat aplikasi web menggunakan pengembangan front-end dan back-end bersama dengan menggabungkan fungsionalitas database (CRUD)
 - Menerapkan aspek keamanan untuk aplikasi web.
 - Melakukan debug pada kesalahan sintak dan logika.
 - Melakukan deploy aplikasi web ke hosting server.
