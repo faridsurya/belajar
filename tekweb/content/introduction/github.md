@@ -36,7 +36,7 @@ Secara default, Git diinstal pada komputer Linux dan macOS sebagai *command line
 
 Berikut ini adalah tampilan GIT pada windows:
 
-![](/home/sunhouse/DOCS/belajar/tekweb/images/git-list-remote.jpg)
+![](../../../tekweb/images/git-list-remote.jpg)
 
 Tampilan GIT mirip dengan tampilan Command Line Interface (CLI) pada windows. Nantinya Anda akan menuliskan perintah-perintah git menggunakan CLI seperti pada gambar di atas. Pada gambar di atas dapat diidentifikasi kondisi sebagai berikut:
 
@@ -138,7 +138,7 @@ git remote set-url origin https://[access_token]@github.com/faridsurya/panorama.
 
 Contoh implementasinya adalah sebagai berikut:
 
-![](/home/sunhouse/DOCS/belajar/tekweb/images/git_add_access_token.png)
+![](../../../tekweb/images/git_add_access_token.png)
 
 Gambar di atas menunjukkan bahwa pengaturan access token pada repositori lokal untuk ID repositori `panorama` sudah berhasil. Berikutnya Anda dapat melakukan penambahan, update, maupun unduh file-file pada repositori remote.
 
@@ -183,7 +183,7 @@ Mengunggah file ke repositori remote biasa dikenal dengan istilah *push*. Untuk 
 
    Berikut ini adalah contoh tampilan ketika berhasil melakukan pemindahan file dari lokal ke remote:
 
-   ![](/home/sunhouse/DOCS/belajar/tekweb/images/git_push.png)
+   ![](../../../tekweb/images/git_push.png)
 
 3. Jika berhasil maka lihat pada repositori github (remote). File baru dengan nama `index.html` sudah berhasil ditambahkan seperti yang terlihat pada gambar berikut:
 
@@ -226,3 +226,5 @@ Anda dapat memanfaatkan fitur github page ini untuk mempublikasikan karya-karya 
 ## Referensi
 
 https://www.computerhope.com/issues/ch001927.htm
+
+https://github.com
