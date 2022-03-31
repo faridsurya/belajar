@@ -1,2 +1,3 @@
 - [Pengantar](/howto/content/introduction.md)
 - [Install Composer](howto/content/install_composer_ubuntu)
+- [Install NodeJS](howto/content/nodejs)

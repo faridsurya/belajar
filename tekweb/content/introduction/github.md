@@ -223,6 +223,12 @@ Github menyediakan fitur github page. Itu adalah cara untuk mempublikasikan apli
 
 Anda dapat memanfaatkan fitur github page ini untuk mempublikasikan karya-karya yang menjadi portfolio Anda. Saat ini banyak peluang pekerjaan yang memanfaatkan github sumber terbuka sebagai cara untuk menilai kehalian seseorang.
 
+## *Upskill 2*
+
+1. Buatlah akun gitlab.com (jika belum memilikinya) kemudian buatlah repositori baru dengan nama `tekweb[tahun_belajar]`. JIka Anda belajar pada tahun 2022 maka repositori tersebut akan bernama `tekweb2022`. 
+2. Buatlah repositori lokal untuk repositori github yang Anda buat pada nomer 1. Setelah Anda berhasil membuatnya, isi file dengan nama `index.html` pada folder lokal yang tercipta dari hasil cloning repositori github Anda. Setelah itu lakukan sinkronisasi repositori remote Anda dengan repositori lokal. Tindakan ini akan membuat file `index.html` juga tersedia pada repositori remote Anda.
+3. Buatlah github page untuk repositori yang Anda buat pada nomer 1. Tindakan ini seharusnya akan membuat web page baru dengan tautan: `https://[username].github.io/tekweb[tahun_belajar]`. 
+
 ## Referensi
 
 https://www.computerhope.com/issues/ch001927.htm

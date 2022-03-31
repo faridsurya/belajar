@@ -1,5 +1,5 @@
 * [RPL](/rpl/content/introduction)
-* [Teknologi Web](/tekweb/index)
+* [Teknologi Web](/tekweb/content/introduction/learning_path)
 * [How To](/howto/content/introduction)
 * Studi Kasus
   * [Vue/Axios Dasar](/vue_basic/content/introduction)

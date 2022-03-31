@@ -77,13 +77,14 @@ Elemen juga dapat memiliki atribut. Atribut terlihat seperti ini:
 
 ![img](../../../tekweb/images/img_1_2.png)
 
-Kode HTML di atas memili satu atribut yaitu `class`. Ada beberapa atribut yang dapat diterapkan pada sebuah elemen HTML misalnya: style, width, height, dll.
+Kode HTML di atas memili satu atribut yaitu `class`. Ada beberapa atribut yang dapat diterapkan pada sebuah elemen HTML misalnya: style, width, height, dll. Selengkapnya, atribut yang disediakan pada semua tag HTML dapat Anda lihat pada [laman ini](https://www.w3schools.com/tags/ref_attributes.asp).
+
 
 ## Metadata dalam HTML
 
-Metadata dokumen HTML adalah bagian yang tidak ditampilkan di browser web saat halaman dimuat. Bagian tersebut berisi informasi seperti halaman <title>, tautan ke file CSS , tautan ke favicon khusus, dan metadata lainnya.
+Metadata dokumen HTML adalah bagian yang tidak ditampilkan di browser web saat halaman dimuat. Bagian tersebut berisi informasi seperti halaman `<title>`, tautan ke file CSS , tautan ke favicon khusus, dan metadata lainnya.
 
-### Apa itu bagian <head> dalam HTML?
+### Apa itu bagian `<head>` dalam HTML?
 
 Bagian head dalam HTML adalah bagian yang tidak ditampilkan pada halaman web. Bagian itu digunakan untuk melampirkan metadata. 
 
@@ -100,5 +101,22 @@ Bagian head dalam HTML adalah bagian yang tidak ditampilkan pada halaman web. Ba
 </html>
 ```
 
-Bagian <head> pada kode HTML di atas memuat elemen <meta> dan <title>. Selain elemen tersebut, elemen lain misalnya elemen untuk melampirkan file css dan javascript juga dituliskan pada bagian <head>. Pada aplikasi web yang kompleks, bagian <head> mungkin akan memuat banyak elemen.
+Bagian `<head>` pada kode HTML di atas memuat elemen `<meta>` dan `<title>`. Selain elemen tersebut, elemen lain seperti elemen untuk melampirkan file css dan javascript juga dituliskan pada bagian `<head>`. Pada aplikasi web yang kompleks, bagian `<head>` mungkin akan memuat banyak elemen.
 
+### Metadata untuk Platform Media Sosial
+
+Berikut ini adalah contoh metadata yang diletakkan pada bagian `<head>` agar website dapat ditangkap oleh platform media sosial seperti facebook:
+
+```html
+<meta property="og:url"                content="http://www.nytimes.com/2015/02/19/arts/international/when-great-minds-dont-think-alike.html" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="When Great Minds Don’t Think Alike" />
+<meta property="og:description"        content="How much does culture influence creative thinking?" />
+<meta property="og:image"              content="http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg" />
+```
+
+Sebagian besar konten dibagikan ke Facebook melalui URL. Agar konten web muncul di Facebook maka pada halaman web harus ditandai dengan Open Graph. Pada kode HTML Open Graph ditandai dengan `og`. Kode di atas adalah contoh Open Graph yang dilampirkan pada bagian `head`. Penampilan web yang diberikan metadata seperti di atas akan terlihat seperti pada gambar berikut:
+
+![](../../../tekweb/images/10956906_396737803821010_168799778_n.png)
+
+Tanpa tag Open Graph ini, Facebook menggunakan cara internal untuk membuat perkiraan terbaik tentang judul, deskripsi, dan gambar pratinjau untuk konten Anda. Tentukan info ini secara jelas menggunakan tag Open Graph untuk memastikan postingan web tampil secara sempurna di Facebook.
