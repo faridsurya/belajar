@@ -29,24 +29,24 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 
 ## Manajemen Belajar
 
-| Pekan ke | Materi                                                       | Tugas Mandiri                    |
-| -------- | ------------------------------------------------------------ | -------------------------------- |
-| 1        | Pengantar Pemrograman web sisi klien                         | [Upskill-1]()<br />[Upskill-2]() |
-| 2        | HTML dan CSS                                                 | [Upskill-3]()                    |
-| 3        | Javascript, Document Object Model (DOM)                      |                                  |
-| 4        | Implementasi DOM: Manipulasi CSS menggunanakan javascript    |                                  |
-| 5        | Membaca dan menampilkan data dalam format JSON dan XML       |                                  |
-| 6        | Pengelolaan data pada halaman web menggunakan Javascript frameworks: Jquery |                                  |
-| 7        | Pengelolaan data pada halaman web menggunakan Javascript frameworks: Vue dan Axios |                                  |
-| 8        | **Evaluasi Proyek: *Front End Web Development***             |                                  |
-| 9        | Pengantar Pemrograman web sisi server                        |                                  |
-| 10       | Bahasa pemrograman sisi server (PHP)                         |                                  |
-| 11       | Bahasa pemrograman sisi server (NodeJS/Express)              |                                  |
-| 12       | Pengantar Application Programming Interface (API)            |                                  |
-| 13       | Pengembangan API                                             |                                  |
-| 14       | Keamanan data pada API                                       |                                  |
-| 15       | Integrasi Front End dengan API dan Pemeriksaan teknik kesalahan |                                  |
-| 16       | **Evaluasi Proyek: Fullstack Web App Development**           |                                  |
+| Pekan ke | Materi                                                       | Tugas Mandiri                                                |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1        | Pengantar Pemrograman web sisi klien                         | [Upskill-1](https://faridsurya.github.io/belajar/#/tekweb/content/introduction/pengantar?id=upskill-1) |
+| 2        | HTML dan CSS                                                 | [Upskill-2](https://faridsurya.github.io/belajar/#/tekweb/content/frontend/3_css?id=upskill)<br> [Studi Kasus 1](https://faridsurya.github.io/belajar/#/vue_basic/content/2_html_bootstrap) |
+| 3        | Javascript, Document Object Model (DOM)                      |                                                              |
+| 4        | Implementasi DOM: Manipulasi CSS menggunanakan javascript    |                                                              |
+| 5        | Membaca dan menampilkan data dalam format JSON dan XML       |                                                              |
+| 6        | Pengelolaan data pada halaman web menggunakan Javascript frameworks: Jquery |                                                              |
+| 7        | Pengelolaan data pada halaman web menggunakan Javascript frameworks: Vue dan Axios |                                                              |
+| 8        | **Evaluasi Proyek: *Front End Web Development***             |                                                              |
+| 9        | Pengantar Pemrograman web sisi server                        |                                                              |
+| 10       | Bahasa pemrograman sisi server (PHP)                         |                                                              |
+| 11       | Bahasa pemrograman sisi server (NodeJS/Express)              |                                                              |
+| 12       | Pengantar Application Programming Interface (API)            |                                                              |
+| 13       | Pengembangan API                                             |                                                              |
+| 14       | Keamanan data pada API                                       |                                                              |
+| 15       | Integrasi Front End dengan API dan Pemeriksaan teknik kesalahan |                                                              |
+| 16       | **Evaluasi Proyek: Fullstack Web App Development**           |                                                              |
 
 
 
