@@ -222,3 +222,6 @@ Sesuai dengan wireframe yang sudah dibuat, terdapat satu blok lagi yang harus di
 
 *Untuk melihat tampilan yang menyerupai desktop gunakan perbesaran 0.5x*
 
+## Latihan
+
+Buatlah blok desain untuk menampilkan informasi tentang daftar keahlian dan daftar portfolio. Buatlah wireframe terlebih dahulu baru membuat blok desain dalam HTML.

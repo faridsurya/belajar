@@ -231,21 +231,41 @@ Berikutnya, lakukan modifikasi pada file html:
 ```html
 ...
 <div class="col-md-4" v-for="item in articles">
-          <div class="card">
-            <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">{{item.title}}</h5>
-              <p class="card-text">{{item.description}}</p>
-              <a href="#" class="btn btn-primary">Read</a>
-            </div>
-          </div>
-        </div>   
+    <div class="card">
+        <img class="card-img-top" v-bind:src="item.thumbnail" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+            <a href="#" class="btn btn-primary">Read</a>
+        </div>
+    </div>
+</div>   
 ....
 ```
 
-Hasilnya akan tampil seperti pada gambar berikut:
+Atribut `v-for="item in articles"` melakukan perulangan sebanyak jumlah data pada variabel `articles`. Variabel `item` merupakan representasi dari setiap objek yang ada pada `articles`. Hasilnya akan tampil seperti pada gambar berikut:
 
 ![](../../vue_basic/images/vue_install_2.png)
 
 Contoh kode lengkap ada di https://github.com/faridsurya/Vue-Axios-Basic
+
+## Latihan
+
+1. Lakukanlah modifikasi pada `main.js` sehingga pada blok artikel terdapat 3 item artikel yang ditampilkan.
+
+2. Buatlah satu blok desain untuk menampilkan daftar keterampilan beserta level yang Anda kuasai. Misalnya:
+
+   | Keterampilan          | Level        |
+   | --------------------- | ------------ |
+   | Microsoft Word        | Advance      |
+   | Microsoft Power Point | Intermediate |
+   | Photoshop             | Intermediate |
+   | HTML                  | Advance      |
+   | CSS                   | Intermediate |
+   | Javascript            | Intermediate |
+
+   - Buat wireframe terlebih dahulu sebelum melakukan koding.
+   - Tampilkan data menggunakan konsep perulangan dan *declarative rendering*. Data dibuat pada file `main.js`.
+   
+3. Buatlah blok desain untuk menampilkan daftar portofolio Anda. Tampilkan data menggunakan konsep perulangan dan *declarative rendering* untuk menampilkan data-data portofolio. Data dibuat pada file `main.js`.
 

@@ -29,11 +29,13 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 
 ## Manajemen Belajar
 
+### Kegiatan Kuliah
+
 | Pekan ke | Materi                                                       | Tugas Mandiri                                                |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1        | Pengantar Pemrograman web sisi klien                         | [Upskill-1](https://faridsurya.github.io/belajar/#/tekweb/content/introduction/pengantar?id=upskill-1) |
-| 2        | HTML dan CSS                                                 | [Upskill-2](https://faridsurya.github.io/belajar/#/tekweb/content/frontend/3_css?id=upskill)<br> [Studi Kasus 1](https://faridsurya.github.io/belajar/#/vue_basic/content/2_html_bootstrap) |
-| 3        | Javascript, Document Object Model (DOM), Implementasi DOM: Manipulasi CSS menggunanakan javascript |                                                              |
+| 2        | HTML dan CSS                                                 | [Upskill-2](https://faridsurya.github.io/belajar/#/tekweb/content/frontend/3_css?id=upskill) |
+| 3        | Javascript, Document Object Model (DOM), Implementasi DOM    |                                                              |
 | 4        | Membaca dan menampilkan data dalam format JSON menggunakan javascript |                                                              |
 | 5        | Pengelolaan data pada halaman web menggunakan Javascript frameworks: Jquery, Vue |                                                              |
 | 6        | Metode pengembangan web menggunakan Single Page Application (SPA) |                                                              |
@@ -48,7 +50,18 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 | 15       | Integrasi Front End dengan API dan Pemeriksaan teknik kesalahan |                                                              |
 | 16       | **Evaluasi Proyek: Fullstack Web App Development**           |                                                              |
 
+### Praktikum
 
+Studi Kasus 1: Vue/Axios Dasar
+
+1. [Layouting](https://faridsurya.github.io/belajar/#/vue_basic/content/2_html_bootstrap)
+2. [Instalasi Vue](https://faridsurya.github.io/belajar/#/vue_basic/content/3_vue_install)
+3. [Mengambil data JSON menggunakan Axios]()
+4. [Menampilkan data dalam format markdown dalam dokumen HTML]()
+
+Studi Kasus 2: NodeJS/Express
+
+Studi Kasus 3: Fullstack Development
 
 ## Studi Kasus
 
