@@ -14,6 +14,7 @@ Studi kasus ini adalah untuk memperdalam penguasaan konsep mengenai pengembangan
 - Latihan penguasaan Javascript terutama kemampuan dalam melakukan perubahan struktur data pada sisi klien
 - Latihan penggunaan Javascript frameworks khususnya Vue (baca: seperti membaca kata *view* dalam bahasa inggris)
 - Latihan penggunaan komunikasi data menggunakan axios terutama untuk mengambil data-data statis pada server. Dalam kasus ini akan dipelajari bagaimana mengambil data dalam format JSON yang tersimpan dalam repositori Github.
+- Menampilkan konten dalam format Markdown kedalam aplikasi front end.
 
 ## Teknologi
 

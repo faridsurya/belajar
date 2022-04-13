@@ -277,7 +277,7 @@ Atribut `v-for="item in articles"` melakukan perulangan sebanyak jumlah data pad
 
 Contoh kode lengkap ada di https://github.com/faridsurya/Vue-Axios-Basic
 
-## Latihan 1
+## Latihan 2
 
 1. Lakukanlah modifikasi pada `main.js` sehingga pada blok artikel terdapat 3 item artikel yang ditampilkan.
 

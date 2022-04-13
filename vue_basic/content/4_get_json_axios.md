@@ -109,7 +109,7 @@ https://github.com/faridsurya/Vue-Axios-Basic
 
 - get_json.html
 
-## Latihan 2
+## Latihan 3
 
 1. Buatlah file `articles.json` pada repositori github Anda yang berisi daftar artikel dengan struktur minimal adalah sebagai berikut:
 
