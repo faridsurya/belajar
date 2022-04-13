@@ -29,8 +29,6 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 
 ## Manajemen Belajar
 
-### Kegiatan Kuliah
-
 | Pekan ke | Materi                                                       | Tugas Mandiri                                                |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1        | Pengantar Pemrograman web sisi klien                         | [Upskill-1](https://faridsurya.github.io/belajar/#/tekweb/content/introduction/pengantar?id=upskill-1) |
@@ -50,9 +48,9 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 | 15       | Integrasi Front End dengan API dan Pemeriksaan teknik kesalahan |                                                              |
 | 16       | **Evaluasi Proyek: Fullstack Web App Development**           |                                                              |
 
-### Praktikum
+## Praktikum & Studi Kasus
 
-Studi Kasus 1 (SK-1): Vue/Axios Dasar
+Studi Kasus 1 (SK-1): [Vue/Axios Dasar](https://faridsurya.github.io/belajar/#/vue_basic/content/introduction)
 
 1. [Layouting](https://faridsurya.github.io/belajar/#/vue_basic/content/2_html_bootstrap)
 2. [Instalasi Vue](https://faridsurya.github.io/belajar/#/vue_basic/content/3_vue_install)
@@ -62,10 +60,3 @@ Studi Kasus 1 (SK-1): Vue/Axios Dasar
 Studi Kasus 2 (SK-2): NodeJS/Express
 
 Studi Kasus 3 (SK-3): Fullstack Development
-
-## Studi Kasus
-
-Pembelajaran teknologi web ini didukung juga dengan beberapa studi kasus. Pembahasan studi kasus ditulis pada bagian yang berbeda. Beberapa studi kasus yang digunakan pada pembelajaran ini adalah:
-
-- [Pengembangan Front End menggunakan Vue dan Axios untuk membuat web Blog Pribadi.](/vue_basic/content/introduction)
-- Pengembangan API menggunakan NodeJS dan Express untuk kebutuhan data Blog Pribadi.
