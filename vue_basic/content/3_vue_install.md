@@ -58,6 +58,34 @@ Konfigurasi Vue sudah selesai, berikutnya adalah mencoba fungsi-fungsi yang dise
 
 !> Jika Anda menggunakan Vue maka pada elemen HTML yang Anda gunakan tidak boleh menggunakan atribut style yang dipasang pada elemen HTML misalnya: `width, height`. Jika masih ada kode-kode tersebut misalnya pada elemen `<img src="" width="300px">` maka atribut `width` harus Anda buat menggunakan class atau menggunakan inline css dengan atribut `style="width=300px"`.
 
+## Struktur Vue.js untuk Penanganan Fungsi dan Variabel
+
+Untuk dapat melakukan penanganan data pada sebuah sistem maka pengetahuan dasar yang diperlukan adalah pemahaman mengenai struktur program. Jika Anda menggunakan framework Javascript maka pengetahuan dasar tentang struktur framework yang digunakan adalah hal penting yang harus dikuasai.
+
+Struktur program utama pada Vue.js adalah sebagai berikut:
+
+```javascript
+Vue.createApp({
+  data() {
+    return {     
+      header: {} // variabel yang diakses oleh template
+    };
+  },
+  methods: { //tempat menambahkan fungsi-fungsi
+    getHeaderData(){} //contoh fungsi
+  },
+  beforeMount() { //fungsi yang dipanggil oleh vue sebelum mount terjadi
+    this.getHeaderData() //contoh fungsi dalam methods yang dipanggil saat halaman terbuka
+  },
+}).mount("#app");
+```
+
+Vue memiliki dua komponen utama yaitu `data()` dan `methods`. `data()` merupakan sebuah fungsi yang mendefinisikan variabel-variabel yang dapat diakses menggunakan *declarative rendering* pada bagian template.
+
+Bagian kedua adalah methods. Bagian ini berupa objek yang dapat diisi dengan fungsi-fungsi untuk penanganan sistem. Pada kasus ini, fungsi yang dibuat adalah sebuah fungsi untuk pengambilan data dari server.
+
+Bagian ketiga (opsional) adalah `beforeMount()` yang merupakan sebuah fungsi. Fungsi tersebut adalah salah satu status dari beberapa *life-cycle* yang ditetapkan pada framework Vue.js. Fungsi tersebut akan berjalan saat halaman terbuka. Dengan menggunakan fungsi tersebut maka fungsi dalam methods dapat dieksekusi saat halaman terbuka. Fungsi yang pertama dieksekusi saat halaman terbuka biasa disebut dengan *initial function*. Pada contoh di atas, fungsi yang pertama akan dieksekusi adalah fungsi `getHeaderData()` yang ada pada bagian methods.
+
 ## Declarative Rendering
 
 Secara sederhana *declarative rendering* merupakan cara untuk menampilkan variabel atau objek javascript dalam dokumen HTML. Misalnya kita mempunyai variabel javascript `title = 'Welcome Vue!'` maka variabel menggunakan *declarative rendering*, kita dapat menampilkan teks 'Welcome Vue' hanya dengan menyematkan variabel `title` pada dukumen HTML. Tentunya dengan penanda khusus, misalnya, `{{title}}`. 
@@ -249,7 +277,7 @@ Atribut `v-for="item in articles"` melakukan perulangan sebanyak jumlah data pad
 
 Contoh kode lengkap ada di https://github.com/faridsurya/Vue-Axios-Basic
 
-## Latihan
+## Latihan 1
 
 1. Lakukanlah modifikasi pada `main.js` sehingga pada blok artikel terdapat 3 item artikel yang ditampilkan.
 
