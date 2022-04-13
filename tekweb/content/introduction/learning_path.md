@@ -37,7 +37,7 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 | 2        | HTML dan CSS                                                 | [Upskill-2](https://faridsurya.github.io/belajar/#/tekweb/content/frontend/3_css?id=upskill) <br> [SK1 - Latihan 1](https://faridsurya.github.io/belajar/#/vue_basic/content/2_html_bootstrap?id=latihan-1) |
 | 3        | Javascript, Document Object Model (DOM), Implementasi DOM    | [SK2 - Latihan 2](https://faridsurya.github.io/belajar/#/vue_basic/content/3_vue_install?id=latihan-2) |
 | 4        | Membaca dan menampilkan data dalam format JSON menggunakan javascript | [SK3 - Latihan 3](https://faridsurya.github.io/belajar/#/vue_basic/content/4_get_json_axios?id=latihan-3) |
-| 5        | Pengelolaan data pada halaman web menggunakan Javascript frameworks: Vue |                                                              |
+| 5        | Pengelolaan data pada halaman web menggunakan Javascript frameworks: Vue | [SK4 - Latihan 4](https://faridsurya.github.io/belajar/#/vue_basic/content/5_display_md?id=latihan-4) |
 | 6        | Metode pengembangan web menggunakan Single Page Application (SPA) |                                                              |
 | 7        | Framework Pengembangan web menggunakan pendekatan SPA (Vue, Angular, React) |                                                              |
 | 8        | **Evaluasi Proyek: *Front End Web Development***             |                                                              |
@@ -57,7 +57,7 @@ Studi Kasus 1 (SK-1): Vue/Axios Dasar
 1. [Layouting](https://faridsurya.github.io/belajar/#/vue_basic/content/2_html_bootstrap)
 2. [Instalasi Vue](https://faridsurya.github.io/belajar/#/vue_basic/content/3_vue_install)
 3. [Mengambil data JSON menggunakan Axios](https://faridsurya.github.io/belajar/#/vue_basic/content/4_get_json_axios)
-4. [Menampilkan data dalam format markdown dalam dokumen HTML]()
+4. [Menampilkan data dalam format markdown dalam dokumen HTML](https://faridsurya.github.io/belajar/#/vue_basic/content/5_display_md)
 
 Studi Kasus 2 (SK-2): NodeJS/Express
 
