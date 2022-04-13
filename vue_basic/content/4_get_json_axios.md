@@ -103,6 +103,12 @@ let status = nilai > 80 ? 'Lulus':'Tidak Lulus';
 
 Program diatas akan membuat variabel `status` merupakan variabel string dengan nilai `Lulus`. `nilai > 80` adalah kondisi yang ditetapkan. `Lulus` adalah nilai jika kondisi terpenuhi dan `Tidak Lulus` adalah nilai jika kondisi tidak terpenuhi. Teknik tersebut digunakan pada `header.social == undefined ? '':header.social.ig.title` agar `header.social.ig` dieksekusi hanya jika `header.social` terdefinisi.
 
+## File Project
+
+https://github.com/faridsurya/Vue-Axios-Basic
+
+- get_json.html
+
 ## Latihan 2
 
 1. Buatlah file `articles.json` pada repositori github Anda yang berisi daftar artikel dengan struktur minimal adalah sebagai berikut:
