@@ -3,4 +3,5 @@
 * [How To](/howto/content/introduction)
 * Studi Kasus
   * [Vue/Axios Dasar](/vue_basic/content/introduction)
+  * [Angular Dasar](/angular_basic/content/introduction)
 
