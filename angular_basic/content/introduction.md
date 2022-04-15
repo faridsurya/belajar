@@ -20,6 +20,12 @@ Angular adalah framework berbasis NodeJS untuk membangun sistem berorientasi kli
 
 ## Kebutuhan Sistem
 
-- NodeJS dan NPM
+- NodeJS versi 14
+- NPM versi 6
+- Angular CLI Versi 13
 - XAMPP
 - VsCode (Atau editor kode lainnya)
+
+## Repositori Github
+
+https://github.com/faridsurya/Buku-Alamat-Angular-13

@@ -292,7 +292,13 @@ Perintah `(click)="tambahAlamat()` adalah trigger untuk memanggil fungsi `tambah
 
 Dialog detail alamat digunakan untuk menampilkan data alamat secara detail. Proses untuk membuat dialog detail alamat ini sama seperti saat membuat dialog tambah alamat. Perbedaannya hanyalah pada kode HTML pada dialog yang dibuat. Ikuti langkah berikut:
 
-1. Buatlah komponen baru dengan menuliskan perintah berikut ini pada terminal. ng generate component detail-alamat Tambahkan kode HTML berikut ini pada detail-alamat.component.html:
+1. Buatlah komponen baru dengan menuliskan perintah berikut ini pada terminal. 
+
+   ```bash
+   ng generate component detail-alamat 
+   ```
+   
+2. Tambahkan kode HTML berikut ini pada detail-alamat.component.html:
 
    ```html
    <h3 mat-dialog-title>Haryanto Effendi</h3> 
@@ -321,7 +327,7 @@ Dialog detail alamat digunakan untuk menampilkan data alamat secara detail. Pros
    <button mat-button mat-dialog-close>Tutup</button>   </mat-dialog-actions>
    ```
 
-2. Tambahkan komponen DetailAlamatComponent pada EntryComponents dalam file app.module.ts. (Lihat langkah serupa pada bagian sebelum ini). Tambahkan juga komponen DetailAlamatComponent pada app.component.ts dan buat juga fungsi untuk membuka dialog.
+3. Tambahkan komponen DetailAlamatComponent pada EntryComponents dalam file app.module.ts. (Lihat langkah serupa pada bagian sebelum ini). Tambahkan juga komponen DetailAlamatComponent pada app.component.ts dan buat juga fungsi untuk membuka dialog.
 
    ```javascript
    ... 
@@ -342,7 +348,7 @@ Dialog detail alamat digunakan untuk menampilkan data alamat secara detail. Pros
    }
    ```
 
-3. Kemudian memanggil fungsi detailAlamat() melalui tombol DETAIL pada list menu.
+4. Kemudian memanggil fungsi detailAlamat() melalui tombol DETAIL pada list menu.
 
    ```html
    ...   
