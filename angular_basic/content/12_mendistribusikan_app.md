@@ -20,7 +20,7 @@ File yang berada dalam folder dist tersebut dapat juga Anda taruh pada hosting w
 
 1. Buatlah penambahan data pada kolom `alamat` dan atur juga sisi User Interface serta pengelolaan data di sisi front-end (Angular), misalnya dengan menambahkan form input baru.
 2. Simpan hasil latihan pada repositori Github Anda dan buatlah page baru untuk menampilkan hasil deployment yang ada pada folder `dist/buku-alamat`.
-3. Tambahkan tautan yang mengarah ke repositori github 
+3. Tambahkan tautan yang mengarah ke repositori github Anda pada halaman portofolio Anda yang sudah Anda buat pada Studi Kasus 1.
 
 ## Apa Lagi Berikutnya?
 
