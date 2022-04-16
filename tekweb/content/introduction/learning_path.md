@@ -50,13 +50,17 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 
 ## Praktikum & Studi Kasus
 
-Studi Kasus 1 (SK-1): [Vue/Axios Dasar](https://faridsurya.github.io/belajar/#/vue_basic/content/introduction)
+### Studi Kasus 1 (SK-1): [Vue/Axios Dasar](https://faridsurya.github.io/belajar/#/vue_basic/content/introduction)
 
 1. [Layouting](https://faridsurya.github.io/belajar/#/vue_basic/content/2_html_bootstrap)
 2. [Instalasi Vue](https://faridsurya.github.io/belajar/#/vue_basic/content/3_vue_install)
 3. [Mengambil data JSON menggunakan Axios](https://faridsurya.github.io/belajar/#/vue_basic/content/4_get_json_axios)
 4. [Menampilkan data dalam format markdown dalam dokumen HTML](https://faridsurya.github.io/belajar/#/vue_basic/content/5_display_md)
 
-Studi Kasus 2 (SK-2): NodeJS/Express
+### Studi Kasus 2 (SK-2): Single Page Application (SPA)
 
-Studi Kasus 3 (SK-3): Fullstack Development
+- Studi kasus membuat aplikasi sederhana (Buku Alamat) menggunakan Angular 13
+
+### Studi Kasus 3 (SK-2): NodeJS/Express
+
+### Studi Kasus 4 (SK-3): Fullstack Development

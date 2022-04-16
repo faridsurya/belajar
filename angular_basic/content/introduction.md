@@ -29,3 +29,8 @@ Angular adalah framework berbasis NodeJS untuk membangun sistem berorientasi kli
 ## Repositori Github
 
 https://github.com/faridsurya/Buku-Alamat-Angular-13
+
+## Video Tutorial
+
+<iframe width="600" height="400" src="https://www.youtube.com/embed/uiOYsGVcg2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+

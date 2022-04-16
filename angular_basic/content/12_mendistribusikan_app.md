@@ -16,6 +16,12 @@ File-file di atas merupakan file hasil deployment Angular yang dapat dijalankan 
 
 File yang berada dalam folder dist tersebut dapat juga Anda taruh pada hosting web sehingga dapat diakses melalui internet.
 
+## Latihan
+
+1. Buatlah penambahan data pada kolom `alamat` dan atur juga sisi User Interface serta pengelolaan data di sisi front-end (Angular), misalnya dengan menambahkan form input baru.
+2. Simpan hasil latihan pada repositori Github Anda dan buatlah page baru untuk menampilkan hasil deployment yang ada pada folder `dist/buku-alamat`.
+3. Tambahkan tautan yang mengarah ke repositori github 
+
 ## Apa Lagi Berikutnya?
 
 Cookbook seri berikutnya kita akan belajar lebih dalam lagi mengenai pengelolaan gambar menggunakan Angular. Pengelolaan gambar tersebut meliputi:
