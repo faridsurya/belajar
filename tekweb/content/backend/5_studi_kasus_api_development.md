@@ -195,3 +195,87 @@ false   // if failure
 ```
 
 ### Articles
+
+#### Menampilkan data semua artikel
+
+```
+GET: /articles
+
+response:
+[
+    {
+        "id"            : "",
+        "title"         : "",
+        "content"       : "",
+        "thumbnail_url" : "",
+        "author_id"     : "",
+        "created_date"  : ""
+    }
+]
+
+```
+
+#### Menampilkan data artikel dengan id  tertentu
+
+```
+GET: /articles/[id]
+
+response:
+{
+    "id"            : "",
+    "title"         : "",
+    "content"       : "",
+    "thumbnail_url" : "",
+    "author_id"     : "",
+    "created_date"  : ""
+}
+```
+
+#### Menambahkan artikel
+
+```
+POST: /articles
+
+data:
+{       
+    "title"         : "",
+    "content"       : "",
+    "thumbnail_url" : "",
+    "author_id"     : "",
+    "created_date"  : ""
+}
+
+response:
+true    // if success
+false   // if failure
+```
+
+#### Memperbarui artikel
+
+```
+PUT: /articles
+
+data:
+{      
+    "id"            : "", 
+    "title"         : "",
+    "content"       : "",
+    "thumbnail_url" : "",
+    "author_id"     : "",
+    "created_date"  : ""
+}
+
+response:
+true    // if success
+false   // if failure
+```
+
+#### Menghapus artikel
+
+```
+DELETE: /articles/[id]
+
+response:
+true    // if success
+false   // if failure
+```
