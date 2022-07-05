@@ -103,4 +103,95 @@ false   // if failure
 
 ### Portfolios
 
+#### Menampilkan semua data portfolio
+
+```
+GET: /portfolios
+
+response:
+[
+    {
+        "title"         : "",
+        "description    : "",
+        "thumbnail_url" : "",
+        "technologies"  : ["", "", ...],
+        "project_url"   : "",
+        "project_start" : "",
+        "project_end"   : ""
+    },
+    ...
+]
+```
+
+#### Menampiklan data portfolio berdasdarkan id
+
+```
+GET: /portfolios/[id]
+
+response:
+
+{
+    "title"         : "",
+    "description    : "",
+    "thumbnail_url" : "",
+    "technologies"  : ["", "", ...],
+    "project_url"   : "",
+    "project_start" : "",
+    "project_end"   : ""
+}
+
+```
+
+#### Menambahkan data portfolio
+
+```
+POST: /portfolios
+
+data:
+{
+    "title"         : "",
+    "description    : "",
+    "thumbnail_url" : "",
+    "technologies"  : ["", "", ...],
+    "project_url"   : "",
+    "project_start" : "",
+    "project_end"   : ""
+}
+
+```
+
+#### Memperbarui data portfolio
+
+```
+PUT: /portfolios
+
+data:
+{
+    "id"            : "",
+    "title"         : "",
+    "description    : "",
+    "thumbnail_url" : "",
+    "technologies"  : ["", "", ...],
+    "project_url"   : "",
+    "project_start" : "",
+    "project_end"   : ""
+}
+
+response:
+true    // if success
+false   // if failure
+
+```
+
+#### Menghapus data portfolio
+
+```
+DELETE: /portfolios/[id]
+
+response:
+true    // if success
+false   // if failure
+
+```
+
 ### Articles
