@@ -284,7 +284,7 @@ false   // if failure
 
 Desain database untuk menyediakan API Points adalah sebagai berikut:
 
-```
+```mermaid
 classDiagram
     class Users{
         # id: int
