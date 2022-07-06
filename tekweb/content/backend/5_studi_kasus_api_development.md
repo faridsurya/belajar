@@ -279,3 +279,29 @@ response:
 true    // if success
 false   // if failure
 ```
+
+## Desain Database
+
+Desain database untuk menyediakan API Points adalah sebagai berikut:
+
+```
+classDiagram
+    class Users{
+        # id: int
+        + name: string
+        + motto: string
+        + ig_url: string
+        + gh_url: string
+        + yt_url: string
+        + avatar_url: string
+    }
+    class Portfolios{
+        # id: int;
+        + title: string
+        + description: string
+        + thumbnail_url: string
+        + project_url: string
+        + project_start: date
+        + project_end: date
+    }
+```
