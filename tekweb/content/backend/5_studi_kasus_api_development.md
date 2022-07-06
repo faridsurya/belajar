@@ -113,6 +113,7 @@ response:
     {
         "id"            : "",
         "author_id"     : "",
+        "author_name"   : "",
         "title"         : "",
         "description    : "",
         "thumbnail_url" : "",
@@ -134,6 +135,7 @@ response:
     {
         "id"            : "",
         "author_id"     : "",
+        "author_name"   : "",
         "title"         : "",
         "description    : "",
         "thumbnail_url" : "",
@@ -156,6 +158,7 @@ response:
 {
     "id"            : "",
     "author_id"     : "",
+    "author_name"   : "",
     "title"         : "",
     "description    : "",
     "thumbnail_url" : "",
@@ -233,6 +236,7 @@ response:
     {
         "id"            : "",
         "author_id"     : "",
+        "author_name"   : "",
         "title"         : "",
         "content"       : "",
         "thumbnail_url" : "",
@@ -252,6 +256,7 @@ response:
     {
         "id"            : "",
         "author_id"     : "",
+        "author_name"   : "",
         "title"         : "",
         "content"       : "",
         "thumbnail_url" : "",
@@ -272,6 +277,7 @@ response:
 {
     "id"            : "",
     "author_id"     : "",
+    "author_name"   : "",
     "title"         : "",
     "content"       : "",
     "thumbnail_url" : "",
