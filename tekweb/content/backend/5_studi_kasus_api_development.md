@@ -111,6 +111,29 @@ GET: /portfolios
 response:
 [
     {
+        "id"            : "",
+        "author_id"     : "",
+        "title"         : "",
+        "description    : "",
+        "thumbnail_url" : "",
+        "technologies"  : ["", "", ...],
+        "project_url"   : "",
+        "project_start" : "",
+        "project_end"   : ""
+    },
+    ...
+]
+```
+#### Menampilkan semua data portfolio oleh penulis tertentu
+
+```
+GET: /portfolios/author/author_id
+
+response:
+[
+    {
+        "id"            : "",
+        "author_id"     : "",
         "title"         : "",
         "description    : "",
         "thumbnail_url" : "",
@@ -131,6 +154,8 @@ GET: /portfolios/[id]
 response:
 
 {
+    "id"            : "",
+    "author_id"     : "",
     "title"         : "",
     "description    : "",
     "thumbnail_url" : "",
@@ -149,6 +174,7 @@ POST: /portfolios
 
 data:
 {
+    "author_id"     : "",
     "title"         : "",
     "description    : "",
     "thumbnail_url" : "",
@@ -168,6 +194,7 @@ PUT: /portfolios
 data:
 {
     "id"            : "",
+    "author_id"     : "",
     "title"         : "",
     "description    : "",
     "thumbnail_url" : "",
@@ -205,6 +232,7 @@ response:
 [
     {
         "id"            : "",
+        "author_id"     : "",
         "title"         : "",
         "content"       : "",
         "thumbnail_url" : "",
@@ -214,6 +242,26 @@ response:
 ]
 
 ```
+#### Menampilkan data artikel oleh penulis tertentu
+
+```
+GET: /articles/author/[author_id]
+
+response:
+[
+    {
+        "id"            : "",
+        "author_id"     : "",
+        "title"         : "",
+        "content"       : "",
+        "thumbnail_url" : "",
+        "author_id"     : "",
+        "created_date"  : ""
+    },
+    ...
+]
+```
+
 
 #### Menampilkan data artikel dengan id  tertentu
 
@@ -223,6 +271,7 @@ GET: /articles/[id]
 response:
 {
     "id"            : "",
+    "author_id"     : "",
     "title"         : "",
     "content"       : "",
     "thumbnail_url" : "",
@@ -239,6 +288,7 @@ POST: /articles
 data:
 {       
     "title"         : "",
+    "author_id"     : "",
     "content"       : "",
     "thumbnail_url" : "",
     "author_id"     : "",
@@ -258,6 +308,7 @@ PUT: /articles
 data:
 {      
     "id"            : "", 
+    "author_id"     : "",
     "title"         : "",
     "content"       : "",
     "thumbnail_url" : "",
@@ -294,14 +345,41 @@ classDiagram
         + gh_url: string
         + yt_url: string
         + avatar_url: string
+        + getAllUser()
+        + getUserById()
+        + updateUser()
+        + createUser()
+        + deleteUser()
     }
     class Portfolios{
         # id: int;
         + title: string
+        + author_id: int
         + description: string
         + thumbnail_url: string
         + project_url: string
         + project_start: date
         + project_end: date
+        + getAllPortfolio()
+        + getPortfolioById()
+        + getPortfoliosByAuthor()
+        + updatePortfolio()
+        + createPortfolio()
+        + deletePortfolio()
+    }
+    class Articles{
+        # id: int,
+        + title: string
+        + content: text
+        + author_id: int
+        + thumbnail_url: string
+        + author_id: int
+        + created_date : datetime 
+        + getAllArticle()
+        + getArticleById()
+        + getArticlesByAuthor()
+        + updateArticle()
+        + createArticle()
+        + deleteArticle()
     }
 ```
