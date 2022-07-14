@@ -6,6 +6,29 @@ Studi kasus ini akan mengambil project yang [sebelumnya](https://faridsurya.gith
 
 Beberapa entitas yang diperlukan dalam pengembangan aplikasi diantaranya adalah users, portfolios, dan articles.
 
+### Authentication
+
+#### Login
+
+```
+POST: /auth/login
+
+body:
+{
+    email: '',
+    password: ''
+}
+
+response:
+{
+    user: {
+        name: '',
+        id: ''
+    },
+    access_token: ''
+}
+```
+
 ### Users
 
 #### Menampilkan data semua pengguna
@@ -17,6 +40,7 @@ response:
 [
     {
         "id"            : "",
+        "email"         : "",
         "name"          : "",
         "motto"         : "",
         "ig_url"        : "",
@@ -37,6 +61,7 @@ GET: /users/[id]
 reponse:
 {
     "id"            : "",
+    "email"         : "",
     "name"          : "",
     "motto"         : "",
     "ig_url"        : "",
@@ -52,9 +77,16 @@ reponse:
 ```
 POST: /users
 
-data:
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:
 {
     "name"          : "",
+    "email"         : "",
     "motto"         : "",
     "ig_url"        : "",
     "fb_url"        : "",
@@ -73,7 +105,13 @@ false   // if failure
 ```
 PUT: /users
 
-data:
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:
 {
     "id"            : "",
     "name"          : "",
@@ -95,6 +133,12 @@ false   // if failure
 
 ```
 DELETE: /users/[id]
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
 
 response:
 true    // if success
@@ -175,7 +219,13 @@ response:
 ```
 POST: /portfolios
 
-data:
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:
 {
     "author_id"     : "",
     "title"         : "",
@@ -192,11 +242,16 @@ data:
 #### Memperbarui data portfolio
 
 ```
-PUT: /portfolios
+PUT: /portfolios/[id]
 
-data:
+headers:
 {
-    "id"            : "",
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
+
+body:
+{    
     "author_id"     : "",
     "title"         : "",
     "description    : "",
@@ -217,6 +272,12 @@ false   // if failure
 
 ```
 DELETE: /portfolios/[id]
+
+headers:
+{
+    Content-type: 'application/json',
+    Authorization: 'Bearer [access_token]'
+}
 
 response:
 true    // if success
