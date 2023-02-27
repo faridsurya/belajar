@@ -50,6 +50,8 @@ Setelah mengikuti kursus ini, diharapkan Anda dapat menguasai hal-hal berikut:
 
 ## Manajemen Belajar
 
+### Topik Pembelajaran
+
 | Pekan ke | Materi                                                       | Tugas Mandiri                                                |
 | -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1        | Overview arsitektur teknologi web dan pemrograman web sisi klien | [Upskill-1](https://faridsurya.github.io/belajar/#/tekweb/content/introduction/pengantar?id=upskill-1) |
