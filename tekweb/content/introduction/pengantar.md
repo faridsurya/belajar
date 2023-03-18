@@ -76,10 +76,9 @@ Sistem kontrol versi terdistribusi digunakan untuk melakukan manajemen repositor
 
 ## *Upskill 1*
 
-1. Lakukan pemasangan perangkat lunak pada komputer Anda untuk mendukung latihan pengembangan aplikasi web, diantaranya:
-   - VsCode
-   - XAMPP
-   - NodeJS dan NPM
-   - Gitbash (Jika menggunakan Sistem Operasi Windows)
-   - Chrome Web Browser
-2. 
+Lakukan pemasangan perangkat lunak pada komputer Anda untuk mendukung latihan pengembangan aplikasi web, diantaranya:
+- VsCode
+- XAMPP
+- NodeJS dan NPM
+- Gitbash (Jika menggunakan Sistem Operasi Windows)
+- Chrome Web Browser
