@@ -1,2 +1,2 @@
 - [Memulai Google Chart](/visin_gchart/content/get_started.md)
-- [Menampilkan Chart dari data CSV](/visin_gchart/content/gchart_load_csv.md)
+- [Menampilkan Chart dari Spreadsheet](/visin_gchart/content/gchart_load_csv.md)
