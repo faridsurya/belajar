@@ -32,3 +32,7 @@ Ini adalah sumber terbuka untuk membantu Anda dalam mempelajari pengembangan API
     *   Pagination and caching strategies for optimizing API performance
     *   Error logging and monitoring with tools like Winston or Morgan
     *   Deployment options for Node.js APIs (e.g., deploying to Heroku or AWS)
+
+## Menemukan Masalah?
+
+Jika Anda menemukan masalah dalam menggunakan konten ini, misalnya terdapat error saat menjalankan kode tertentu dalam konten ini, maka berikan feedback Anda melalui halaman issue [disini](https://github.com/faridsurya/belajar/issues).
