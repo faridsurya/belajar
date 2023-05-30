@@ -5,5 +5,6 @@
   * [Vue/Axios Dasar](/vue_basic/content/introduction)
   * [Angular Dasar](/angular_basic/content/introduction)
   * [Angular Intermediate](/angular_intermediate/content/introduction)
+  * [Express Js Dasar](/express_basic/content/introduction)
   * [Visualisasi Data Google Chart](/visin_gchart/content/get_started)
 
