@@ -33,6 +33,10 @@ Ini adalah sumber terbuka untuk membantu Anda dalam mempelajari pengembangan API
     *   Error logging and monitoring with tools like Winston or Morgan
     *   Deployment options for Node.js APIs (e.g., deploying to Heroku or AWS)
 
+## Repositori tutorial
+
+Repositori untuk tutorial ini tersedia pada tautan [ini](https://github.com/faridsurya/tutorials/tree/main/express_basic). Untuk step sebelumnya, cek branch.
+
 ## Menemukan Masalah?
 
 Jika Anda menemukan masalah dalam menggunakan konten ini, misalnya terdapat error saat menjalankan kode tertentu dalam konten ini, maka berikan feedback Anda melalui halaman issue [disini](https://github.com/faridsurya/belajar/issues).
