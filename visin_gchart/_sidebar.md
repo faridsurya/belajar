@@ -1,2 +1,4 @@
 - [Memulai Google Chart](/visin_gchart/content/get_started.md)
 - [Menampilkan Chart dari Spreadsheet](/visin_gchart/content/gchart_load_csv.md)
+- [Membuat Dashboard dari Spreadsheet](/visin_gchart/content/gchart_dashboard.md)
+- [Menjalankan Aplikasi HTML Statis di Komputer Lokal]()
