@@ -14,8 +14,9 @@ Jalankan perintah berikut untuk memulai server PHP:
 
 ```bash
 php -S localhost:8000
-Perintah ini akan memulai server PHP dan menghubungkannya ke localhost pada port 8000. Anda dapat mengubah nomor port jika diperlukan.
 ```
+Perintah ini akan memulai server PHP dan menghubungkannya ke localhost pada port 8000. Anda dapat mengubah nomor port jika diperlukan.
+
 ### Langkah 4: Mengakses aplikasi Anda
 Buka browser web dan kunjungi `http://localhost:8000` (atau nomor port yang Anda tentukan). Aplikasi HTML statis Anda sekarang harus berjalan dan dapat diakses melalui server PHP.
 
@@ -37,7 +38,7 @@ python -m http.server 8000
 Perintah ini akan memulai server Python dan menghubungkannya ke localhost pada port 8000. Anda dapat mengubah nomor port jika diperlukan.
 
 ### Langkah 4: Mengakses aplikasi Anda
-Buka browser web dan kunjungi http://localhost:8000 (atau nomor port yang Anda tentukan). Aplikasi HTML statis Anda sekarang harus berjalan dan dapat diakses melalui server Python.
+Buka browser web dan kunjungi `http://localhost:8000` (atau nomor port yang Anda tentukan). Aplikasi HTML statis Anda sekarang harus berjalan dan dapat diakses melalui server Python.
 
 Catatan: Kedua server PHP dan Python dimaksudkan untuk tujuan pengembangan. Jika Anda ingin mendeploy aplikasi Anda ke lingkungan produksi, pertimbangkan untuk menggunakan server web seperti Apache atau Nginx.
 
