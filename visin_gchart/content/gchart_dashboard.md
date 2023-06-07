@@ -1,6 +1,8 @@
-# Bagian A: Membuat Dashboard Menggunakan HTML, JavaScript, Google Chart, dan Google Spreadsheet
+# Membuat Dashboard Menggunakan HTML, JavaScript, Google Chart, dan Google Spreadsheet
 
-## Langkah 1: Menyiapkan file HTML
+## Bagian A: Koneksi Google Chart dengan Spreadsheet
+
+### Langkah 1: Menyiapkan file HTML
 Buat file HTML baru dengan nama "dashboard.html". Tambahkan kode berikut sebagai struktur dasar HTML:
 
 ```html
@@ -21,7 +23,7 @@ Buat file HTML baru dengan nama "dashboard.html". Tambahkan kode berikut sebagai
 </html>
 ```
 
-## Langkah 2: Menyiapkan file JavaScript
+### Langkah 2: Menyiapkan file JavaScript
 Buat file JavaScript baru dengan nama "dashboard.js". Tambahkan kode berikut untuk mengambil data dari Google Spreadsheet dan membuat grafik menggunakan Google Charts:
 
 ```javascript
@@ -64,12 +66,12 @@ function drawCharts(data) {
 ```
 Gantilah 'ID_SPREADSHEET_ANDA' dengan ID sebenarnya dari Google Spreadsheet Anda. Sesuaikan juga range ('Sheet1!A1:B5') sesuai dengan data Anda.
 
-## Langkah 3: Muat Dashboard
+### Langkah 3: Muat Dashboard
 Buka file "dashboard.html" di browser web. Kode JavaScript akan memuat library Google Charts, mengambil data dari Google Spreadsheet yang ditentukan, dan menampilkan grafik di dalam elemen div yang sesuai.
 
-# Bagian B: Modifikasi Desain UI Menggunakan Bootstrap
+## Bagian B: Modifikasi Desain UI Menggunakan Bootstrap
 
-## Langkah 1: Menambahkan Bootstrap ke Proyek Anda
+### Langkah 1: Menambahkan Bootstrap ke Proyek Anda
 Buka file "dashboard.html" di editor teks Anda.
 Tambahkan kode berikut di bagian <head> untuk memuat CSS dan JavaScript dari Bootstrap:
   
@@ -78,7 +80,7 @@ Tambahkan kode berikut di bagian <head> untuk memuat CSS dan JavaScript dari Boo
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 ```
 
-## Langkah 2: Mengubah Struktur HTML
+### Langkah 2: Mengubah Struktur HTML
 Ganti `<h1>Dashboard</h1>` dengan kode berikut untuk membuat navbar dengan judul:
 
   ```html
@@ -130,7 +132,7 @@ Ganti `<div id="chart1"></div>` dan elemen div lainnya dengan kode berikut untuk
 </div>
 ```
   
-## Langkah 3: Menyesuaikan CSS
+### Langkah 3: Menyesuaikan CSS
 Tambahkan sedikit CSS ke file "dashboard.html" untuk mengatur margin atas dan padding elemen:
 
   ```html
@@ -142,26 +144,26 @@ Tambahkan sedikit CSS ke file "dashboard.html" untuk mengatur margin atas dan pa
 </style>
   ```
   
-## Langkah 4: Jalankan Aplikasi Dashboard
+### Langkah 4: Jalankan Aplikasi Dashboard
 Buka file "dashboard.html" di browser Anda. Aplikasi dashboard akan memuat tampilan yang diperbarui dengan struktur grid 2x2 menggunakan Bootstrap. Setiap grafik akan ditampilkan dalam elemen div dengan judul yang sesuai.
 
 Dengan langkah-langkah ini, Anda dapat menggunakan Bootstrap untuk memodifikasi desain UI aplikasi dashboard Anda, termasuk menambahkan navbar dengan judul dan mengatur tata letak grafik dalam grid 2x2.
 
-# Bagian B: Menerbitkan Aplikasi Dashboard di GitHub Pages
+## Bagian B: Menerbitkan Aplikasi Dashboard di GitHub Pages
 
-## Langkah 1: Buat repositori GitHub
+### Langkah 1: Buat repositori GitHub
 - Buat repositori baru di GitHub. Beri nama sesuai preferensi Anda.
 - Inisialisasi repositori dengan file README dan tambahkan file `.gitignore` jika diperlukan.
 
-## Langkah 2: Unggah file Anda ke repositori
+### Langkah 2: Unggah file Anda ke repositori
 Commit dan unggah file "dashboard.html" dan "dashboard.js" ke repositori GitHub Anda.
 
-## Langkah 3: Aktifkan GitHub Pages
+### Langkah 3: Aktifkan GitHub Pages
 - Buka tab "Settings" repositori GitHub Anda.
 - Gulir ke bawah ke bagian "GitHub Pages".
 - Pada dropdown "Source", pilih branch yang berisi file-file dashboard Anda.
 - Setelah dipilih, GitHub Pages akan menghasilkan URL di mana aplikasi dashboard Anda akan dipublikasikan.
 
-## Langkah 4: Akses Aplikasi Dashboard Anda
+### Langkah 4: Akses Aplikasi Dashboard Anda
 Kunjungi URL yang dihasilkan untuk aplikasi dashboard GitHub Pages Anda.
 Sekarang Anda dapat mengakses dan berinteraksi dengan dashboard Anda melalui URL tersebut.
