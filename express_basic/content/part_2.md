@@ -728,6 +728,30 @@ Dengan kode yang diperbarui ini, struktur URL untuk mendapatkan produk berdasark
 
 Pastikan untuk menyesuaikan kode sesuai dengan struktur proyek dan kebutuhan Anda.
 
+## Menguji Endpoint
 
+Maaf atas kekeliruan sebelumnya. Jika Anda tidak menggunakan otorisasi saat ini, Anda dapat melewati langkah yang terkait dengan penambahan header otorisasi. Berikut adalah langkah-langkah terbaru untuk menguji API endpoint pengguna (user) dan produk (product) tanpa otorisasi:
+
+1. Pastikan server MongoDB sedang berjalan dan koneksi ke database telah dikonfigurasi dengan benar.
+
+2. Buka terminal atau command prompt, lalu navigasikan ke direktori proyek.
+
+3. Jalankan perintah `npm start` untuk menjalankan server Node.js.
+
+4. Buka aplikasi seperti Postman atau Insomnia untuk menguji API.
+
+5. Untuk menguji endpoint API Produk:
+   - Kirim permintaan POST ke URL `http://localhost:3000/products` untuk membuat produk baru. Sertakan data produk seperti `name`, `description`, `price`, `productCategory`, dan `thumbnails` di dalam body permintaan.
+   - Kirim permintaan GET ke URL `http://localhost:3000/products` untuk mendapatkan daftar semua produk.
+   - Kirim permintaan GET ke URL `http://localhost:3000/products/owner/:ownerId` untuk mendapatkan daftar produk berdasarkan pemilik. Gantikan `:ownerId` dengan ID pemilik yang valid.
+   - Kirim permintaan GET ke URL `http://localhost:3000/products/:productId` untuk mendapatkan detail produk tertentu. Gantikan `:productId` dengan ID produk yang valid.
+   - Kirim permintaan PUT ke URL `http://localhost:3000/products/:productId` untuk memperbarui produk. Gantikan `:productId` dengan ID produk yang valid. Sertakan data produk yang diperbarui di dalam body permintaan.
+   - Kirim permintaan DELETE ke URL `http://localhost:3000/products/:productId` untuk menghapus produk. Gantikan `:productId` dengan ID produk yang valid.
+
+6. Periksa respons yang diterima untuk setiap permintaan dan pastikan semuanya berjalan dengan baik.
+
+Harap diingat bahwa tanpa otorisasi, endpoint-endpoint ini akan dapat diakses oleh siapa pun, dan tidak akan ada pengecekan autentikasi atau otorisasi. Disarankan untuk mengimplementasikan mekanisme otorisasi yang sesuai untuk mengamankan API Anda di lingkungan produksi.
+
+Selamat menguji endpoint-endpoint API pengguna dan produk!
 
 
