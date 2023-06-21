@@ -1,5 +1,24 @@
 # Visualisasi Data Lokasi Menggunakan OpenLayer
 
+Kegiatan belajar ini adalah panduan langkah demi langkah untuk membuat visualisasi data gempa bumi dengan OpenLayers, HTML, CSS, dan JavaScript. Dalam kegiatan ini, kita membuat sebuah peta yang menampilkan lokasi gempa bumi di Indonesia dengan menggunakan penanda (marker) berdasarkan data dari file CSV. Marker-marker tersebut memberikan informasi tentang kedalaman dan magnitudo gempa bumi, sehingga memungkinkan kita untuk memahami dan menganalisis pola dan distribusi gempa di wilayah Indonesia.
+
+## Teknologi
+Berikut adalah daftar teknologi yang digunakan dalam kegiatan belajar ini:
+
+1. OpenLayers: Framework JavaScript open-source yang digunakan untuk memanipulasi dan menampilkan peta interaktif di browser.
+2. HTML: Bahasa markup yang digunakan untuk struktur dan konten halaman web.
+3. CSS: Bahasa stylesheet yang digunakan untuk mengatur tampilan dan gaya halaman web.
+4. JavaScript: Bahasa pemrograman yang digunakan untuk menambahkan logika dan interaksi ke dalam halaman web.
+5. CSV (Comma-Separated Values): Format file yang digunakan untuk menyimpan data tabular dalam bentuk teks dengan kolom yang dipisahkan oleh koma.
+
+## Dataset
+
+[Data Gempabumi di Indoensia](https://www.kaggle.com/datasets/kekavigi/earthquakes-in-indonesia)
+
+
+## Langkah-Langkah Pembuatan
+
+
 Berikut adalah panduan langkah demi langkah untuk membuat visualisasi data menggunakan OpenLayers, HTML, CSS, dan JavaScript, yang menunjukkan lokasi gempa bumi dengan menempatkan penanda pada peta.
 
 Langkah 1: Mempersiapkan Proyek
