@@ -357,3 +357,122 @@ Buatlah halaman login sesuai dengan desain wireframe. Gunakan dua class yaitu `.
 **Wireframe:**
 
 ![](../../../tekweb/images/css_upskill.png)
+
+## CSS Framework
+
+Framework CSS adalah kumpulan kode CSS yang telah dibuat sebelumnya yang dapat digunakan untuk mempermudah proses pembuatan tampilan halaman web. Dengan menggunakan framework CSS, kita dapat membuat tampilan halaman web dengan cepat dan mudah karena sudah tersedia berbagai komponen dan gaya yang telah dikembangkan sebelumnya.
+
+Beberapa keuntungan menggunakan framework CSS adalah:
+
+1. Mempercepat waktu pengembangan: dengan menggunakan framework CSS, kita tidak perlu membuat kode CSS dari awal, sehingga dapat mempercepat waktu pengembangan halaman web.
+2. Memudahkan pemeliharaan: karena framework CSS sudah terstruktur dengan baik, maka pemeliharaan kode menjadi lebih mudah.
+3. Responsif: kebanyakan framework CSS sudah didesain untuk tampilan responsif, sehingga dapat menyesuaikan tampilan halaman web pada berbagai ukuran layar perangkat.
+4. Konsistensi: dengan menggunakan framework CSS, tampilan halaman web menjadi lebih konsisten karena terdapat pedoman dan aturan baku yang telah dibuat sebelumnya.
+
+Beberapa contoh framework CSS yang populer adalah:
+
+1. Bootstrap: framework CSS yang dibuat oleh Twitter dan sangat populer di kalangan pengembang web.
+2. Foundation: framework CSS yang fokus pada tampilan responsif dan didesain untuk kebutuhan pengembangan web modern.
+3. Materialize: framework CSS yang dibuat oleh Google dan didesain dengan inspirasi Material Design.
+4. Bulma: framework CSS yang didesain untuk kebutuhan pengembangan web dengan tampilan yang simpel dan modern.
+5. Semantic UI: framework CSS yang memiliki filosofi "human-friendly HTML" yang membuat kode menjadi lebih mudah dibaca dan dimengerti.
+
+Kita dapat memilih framework CSS yang sesuai dengan kebutuhan dan preferensi kita dalam membangun tampilan halaman web.
+
+## Sassy CSS (SCSS)
+
+SCSS (Sassy CSS) adalah sebuah preprocessor CSS yang memperluas sintaks CSS standar. SCSS memungkinkan kita menulis kode CSS dengan sintaks yang lebih efisien, mudah dibaca, dan mudah dipelihara.
+
+Dalam SCSS, kita dapat menggunakan variabel, fungsi, operasi matematika, dan fitur lain yang tidak tersedia di CSS standar. Dengan menggunakan variabel, kita dapat menyimpan nilai seperti warna, ukuran font, atau margin dan kemudian memanggilnya di beberapa tempat di kode kita.
+
+Contoh penggunaan variabel di SCSS:
+
+```css
+$primary-color: #007bff;
+
+.header {
+  background-color: $primary-color;
+}
+
+.button {
+  background-color: $primary-color;
+}
+```
+
+Dalam contoh di atas, kita menggunakan variabel `$primary-color` untuk menyimpan nilai warna. Kemudian kita memanggil variabel tersebut di kedua tempat di kode kita, yaitu di class `.header` dan class `.button`.
+
+Selain variabel, SCSS juga memiliki fitur nesting yang memungkinkan kita menulis kode CSS dengan struktur yang lebih terstruktur dan mudah dibaca. Dengan nesting, kita dapat menulis CSS seperti menulis HTML.
+
+Contoh penggunaan nesting di SCSS:
+
+```css
+.header {
+  background-color: $primary-color;
+  
+  h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+}
+
+.button {
+  background-color: $primary-color;
+  
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+```
+
+Dalam contoh di atas, kita menggunakan nesting untuk menulis kode CSS yang lebih mudah dibaca. Di dalam class `.header`, kita menulis kode untuk mengatur background color dan font size dari heading 1. Di class `.button`, kita menggunakan operator `&` untuk merujuk ke class `.button` itu sendiri dan kemudian menulis kode CSS untuk mengatur hover state dari button. Kita juga menggunakan fungsi `darken()` untuk membuat warna menjadi lebih gelap saat dihover.
+
+Dalam proses kompilasi, kode SCSS akan dikonversi menjadi kode CSS standar yang dapat digunakan di halaman web.
+
+## Efek Animasi Menggunakan CSS
+
+Penggunaan efek animasi pada CSS dapat dilakukan dengan menggunakan property `animation`. Property ini memungkinkan kita untuk membuat animasi dengan mengatur beberapa nilai seperti durasi, timing function, jumlah pengulangan, dan keyframes.
+
+Berikut adalah contoh penggunaan property `animation` untuk membuat animasi dengan gerakan perlahan dari kiri ke kanan:
+
+```css
+/* CSS */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: move-right;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move-right {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 200px;
+  }
+}
+```
+
+Dalam contoh di atas, kita menggunakan property `animation` pada class `.box` untuk membuat animasi dengan gerakan perlahan dari kiri ke kanan. Kita juga menggunakan keyframes `@keyframes` untuk mengatur bagaimana elemen akan bergerak selama animasi berlangsung.
+
+Nilai `animation-name` digunakan untuk menentukan nama dari animasi. Nama tersebut kemudian digunakan pada keyframes untuk menentukan animasi mana yang akan dijalankan.
+
+Nilai `animation-duration` digunakan untuk menentukan durasi dari animasi dalam satuan detik.
+
+Nilai `animation-timing-function` digunakan untuk menentukan bagaimana kecepatan animasi berubah seiring waktu. Ada beberapa nilai timing function yang bisa digunakan, seperti `linear`, `ease`, `ease-in`, `ease-out`, dan `ease-in-out`.
+
+Nilai `animation-delay` digunakan untuk menentukan waktu tunda sebelum animasi dimulai dalam satuan detik.
+
+Nilai `animation-iteration-count` digunakan untuk menentukan berapa kali animasi akan diulang. Jika ingin membuat animasi berjalan terus-menerus, maka nilai ini bisa diatur menjadi `infinite`.
+
+Pada keyframes `move-right`, kita mengatur posisi `left` dari elemen pada awal dan akhir animasi. Nilai `0%` berarti elemen berada di posisi kiri (0px), sedangkan nilai `100%` berarti elemen berada di posisi kanan (200px).
+
+Dalam hasil akhir, animasi akan berjalan secara otomatis saat halaman web di-load dan akan terus berulang sepanjang waktu karena kita telah mengatur nilai `animation-iteration-count` menjadi `infinite`.
+
+Terdapat banyak jenis animasi yang bisa dibuat menggunakan property `animation` dan keyframes `@keyframes`. Kita dapat menciptakan animasi seperti gerakan rotasi, efek perubahan warna, dan banyak lagi. Hal ini dapat meningkatkan tampilan website dan memberikan pengalaman pengguna yang lebih menarik.
+
