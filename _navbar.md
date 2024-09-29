@@ -1,6 +1,6 @@
 * [RPL](/rpl/content/introduction)
 * [Teknologi Web](/tekweb/content/introduction/learning_path)
-* [SQA](/sqa/content/1_pengantar)
+* [SQA](/sqa/content/pengantar)
 * [How To](/howto/content/introduction)
 * Praktikum
   * [Vue/Axios Dasar](/vue_basic/content/introduction)
