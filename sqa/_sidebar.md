@@ -1,3 +1,3 @@
 - [Pengantar](/sqa/content/pengantar.md)
-- [Pengenalan Alat Pengujian dan Lingkungan Pengujian](/sqa/content/Praktikum 1 - Pengenalan Alat Pengujian dan Lingkungan Pengujian)
+- [Pengenalan Alat Pengujian dan Lingkungan Pengujian](sqa/content/1_pengenalan_alat_pengujian_dan_lingkungan_pengujian.md)
 - [Unit Testing dengan Mocha](/sqa/content/Praktikum 2 - Unit Testing dengan Mocha)
