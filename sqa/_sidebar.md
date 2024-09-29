@@ -1,2 +1,3 @@
-- [Pengantar](Modul Praktikum Pengujian dan Penjaminan Mutu Perangkat Lunak.md)
-- 
+- [Pengantar](pengantar)
+- [Pengenalan Alat Pengujian dan Lingkungan Pengujian](Praktikum 1 - Pengenalan Alat Pengujian dan Lingkungan Pengujian)
+- [Unit Testing dengan Mocha](Praktikum 2 - Unit Testing dengan Mocha)
