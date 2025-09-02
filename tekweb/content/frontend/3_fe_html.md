@@ -1,4 +1,18 @@
-# HTML
+# **Modul Pertemuan 2: HTML Dasar**
+
+#### **Durasi: 1 Pertemuan**
+
+### **Tujuan Pembelajaran**
+
+Setelah menyelesaikan modul ini, mahasiswa diharapkan mampu:
+
+* Memahami dan menjelaskan peran dasar HTML dalam struktur halaman web.  
+* Mengenali dan menggunakan tag-tag HTML dasar untuk membuat konten.  
+* Membangun struktur dasar dokumen HTML yang benar.  
+* Membuat halaman web statis sederhana dengan elemen-elemen HTML.
+
+
+###  HTML
 
 HTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat dan memformat halaman web. HTML memungkinkan pengguna untuk menambahkan teks, gambar, audio, video, dan konten lainnya ke halaman web. HTML juga digunakan untuk membuat tautan atau hyperlink yang menghubungkan halaman web satu dengan yang lain.
 
@@ -10,11 +24,11 @@ HTML terus berkembang seiring waktu dan terus mengalami perubahan dan perbaikan 
 
 Berikut ini adalah topik-topik penting dalam mempelajari HTML:
 
-## Struktur Dasar HTML 
+#### Struktur Dasar HTML 
 
 Struktur dasar HTML adalah kerangka utama yang digunakan untuk membuat halaman web dengan HTML. Struktur dasar HTML terdiri dari beberapa elemen utama, yaitu tag HTML, tag head, dan tag body. Berikut adalah deskripsi dan contoh tentang struktur dasar HTML:
 
-### Tag HTML 
+##### Tag HTML 
 
 Tag HTML adalah tag yang digunakan untuk memberitahu browser bahwa halaman web yang dibuat menggunakan bahasa markup HTML. Tag HTML biasanya ditempatkan di awal dan akhir halaman web. Berikut adalah contoh tag HTML:
 
@@ -31,7 +45,7 @@ Tag HTML adalah tag yang digunakan untuk memberitahu browser bahwa halaman web y
 </html>
 ```
 
-### Tag Head 
+##### Tag Head 
 
 Tag head digunakan untuk menyimpan informasi tentang halaman web, seperti judul halaman, meta tag, dan file CSS. Tag head biasanya ditempatkan di antara tag HTML dan tag body. Berikut adalah contoh tag head:
 
@@ -50,7 +64,7 @@ Tag head digunakan untuk menyimpan informasi tentang halaman web, seperti judul 
 </html>
 ```
 
-### Tag Body 
+##### Tag Body 
 
 Tag body digunakan untuk menempatkan elemen HTML yang akan ditampilkan pada halaman web. Elemen HTML yang sering digunakan dalam tag body antara lain heading, paragraph, list, image, dan link. Berikut adalah contoh tag body:
 
@@ -76,7 +90,7 @@ Tag body digunakan untuk menempatkan elemen HTML yang akan ditampilkan pada hala
 
 Dalam contoh di atas, tag HTML berfungsi sebagai pembuka dan penutup halaman web, tag head menyimpan informasi tentang halaman web, dan tag body menyimpan elemen HTML yang akan ditampilkan pada halaman web, seperti heading, paragraph, list, image, dan link. Struktur dasar HTML ini dapat diubah dan disesuaikan dengan kebutuhan pengguna.
 
-## Tabel HTML 
+##### Tabel HTML 
 
 Tag table pada HTML digunakan untuk membuat tabel atau grid data di halaman web. Tabel HTML terdiri dari baris dan kolom, dan setiap sel dapat berisi teks, gambar, link, dan elemen HTML lainnya. Tabel HTML dapat digunakan untuk menampilkan data dalam bentuk yang terstruktur dan mudah dibaca oleh pengguna.
 
@@ -137,7 +151,7 @@ Hasil dari kode di atas adalah tabel dengan tampilan sebagai berikut:
 | 2    | Jane Smith  | Bandung  | [jane.smith@example.com](mailto:jane.smith@example.com)   |
 | 3    | Bob Johnson | Surabaya | [bob.johnson@example.com](mailto:bob.johnson@example.com) |
 
-## Form HTML 
+##### Form HTML 
 
 Tag form pada HTML digunakan untuk membuat formulir atau input data pada halaman web. Formulir HTML biasanya terdiri dari beberapa elemen seperti teks input, kotak centang, tombol radio, tombol kirim, dan sebagainya. Penggunaan formulir pada halaman web memungkinkan pengguna untuk memasukkan data dan mengirimkannya ke server untuk diproses.
 
@@ -174,7 +188,7 @@ Dalam contoh di atas, form dibuat untuk mengumpulkan data seperti nama, email, d
 
 Setelah data formulir dikirim ke server, data tersebut dapat diproses oleh server dan menghasilkan respon seperti mengirim email, menyimpan data ke database, atau mengirim data ke halaman web lainnya.
 
-## Hyperlink HTML 
+##### Hyperlink HTML 
 
 Hyperlink pada HTML adalah tautan yang menghubungkan halaman web dengan halaman web lain atau dengan bagian-bagian tertentu pada halaman yang sama. Hyperlink biasanya berupa teks atau gambar yang dapat diklik oleh pengguna untuk membuka halaman web baru atau bagian yang dituju.
 
@@ -207,7 +221,7 @@ Penjelasan:
 
 Dalam contoh di atas, hyperlink "Tentang Kami" akan mengarahkan pengguna ke bagian halaman yang memiliki id "about", yaitu judul "Tentang Kami" dan paragraf yang mengikuti. Hal ini memungkinkan pengguna untuk menavigasi halaman web secara lebih mudah dan cepat.
 
-## Gambar HTML
+##### Gambar HTML
 
 Tag img pada HTML digunakan untuk menampilkan gambar atau grafik pada halaman web. Berikut ini adalah penjelasan dan cara penggunaan tag img pada HTML:
 
@@ -244,11 +258,11 @@ Penjelasan:
 - Atribut height: digunakan untuk menentukan tinggi gambar. Dalam contoh ini, tinggi gambar ditentukan sebesar 200 piksel.
 - Atribut style: digunakan untuk menentukan gaya tampilan gambar. Dalam contoh ini, gambar diberi border sebesar 1 piksel dengan warna hitam.
 
-## Multimedia HTML 
+##### Multimedia HTML 
 
 Multimedia pada HTML merujuk pada elemen-elemen yang digunakan untuk menampilkan konten yang kaya visual dan audio seperti audio, video, dan animasi. Berikut ini adalah penjelasan dan contoh multimedia pada HTML:
 
-### Tag audio
+##### Tag audio
 
 Tag audio pada HTML digunakan untuk menambahkan file audio pada halaman web. Berikut ini adalah contoh penggunaan tag audio pada HTML:
 
@@ -263,7 +277,7 @@ Tag audio pada HTML digunakan untuk menambahkan file audio pada halaman web. Ber
 - Atribut controls: menampilkan kontrol audio standar seperti tombol play, pause, dan volume. Atribut ini bersifat opsional.
 - Konten alternatif: ditampilkan jika browser tidak mendukung tag audio.
 
-### Tag video
+##### Tag video
 
 Tag video pada HTML digunakan untuk menambahkan file video pada halaman web. Berikut ini adalah contoh penggunaan tag video pada HTML:
 
@@ -279,7 +293,7 @@ Tag video pada HTML digunakan untuk menambahkan file video pada halaman web. Ber
 - Atribut width dan height: menentukan ukuran video yang ditampilkan pada halaman web.
 - Konten alternatif: ditampilkan jika browser tidak mendukung tag video.
 
-### Tag canvas
+##### Tag canvas
 
 Tag canvas pada HTML digunakan untuk membuat gambar atau animasi menggunakan JavaScript. Berikut ini adalah contoh penggunaan tag canvas pada HTML:
 
@@ -291,7 +305,7 @@ Tag canvas pada HTML digunakan untuk membuat gambar atau animasi menggunakan Jav
 - Atribut id: menentukan ID unik untuk elemen canvas.
 - Atribut width dan height: menentukan ukuran elemen canvas.
 
-### Tag iframe
+##### Tag iframe
 
 Tag iframe pada HTML digunakan untuk menampilkan halaman web atau dokumen HTML lainnya di dalam halaman web yang sedang dibuka. Berikut ini adalah contoh penggunaan tag iframe pada HTML:
 
@@ -303,7 +317,7 @@ Tag iframe pada HTML digunakan untuk menampilkan halaman web atau dokumen HTML l
 - Atribut src: menentukan URL atau lokasi halaman web atau dokumen HTML lainnya yang akan ditampilkan pada area iframe.
 - Atribut width dan height: menentukan ukuran area iframe.
 
-### Tag svg
+##### Tag svg
 
 SVG atau Scalable Vector Graphics adalah format gambar berbasis vektor yang digunakan untuk membuat grafik dan animasi dengan kualitas yang tinggi dan dapat diubah ukuran tanpa kehilangan kualitas. SVG dapat digunakan pada HTML menggunakan tag `<svg>`.
 
@@ -328,63 +342,19 @@ Contoh di atas akan menampilkan lingkaran berwarna merah dengan garis pinggir hi
 
 SVG pada HTML dapat digunakan untuk membuat berbagai macam bentuk seperti garis, kotak, poligon, dan lain sebagainya. SVG juga mendukung animasi dengan menggunakan tag `<animate>`. Dengan SVG, kita dapat membuat grafik dan animasi dengan kualitas yang tinggi dan interaktif pada halaman web.
 
-## CSS HTML 
 
-CSS (Cascading Style Sheets) adalah bahasa pemrograman yang digunakan untuk memperindah tampilan halaman web yang dibuat dengan HTML. Dengan menggunakan CSS, kita dapat mengatur warna, jenis huruf, ukuran font, dan tata letak elemen pada halaman web.
-
-Berikut ini adalah contoh penggunaan CSS pada HTML:
-
-```html
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Contoh CSS</title>
-    <style>
-      body {
-        background-color: #f2f2f2;
-        font-family: Arial, sans-serif;
-      }
-      h1 {
-        color: blue;
-        font-size: 28px;
-        text-align: center;
-      }
-      p {
-        color: green;
-        font-size: 18px;
-        line-height: 1.5;
-        margin-left: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Ini adalah judul halaman</h1>
-    <p>Ini adalah paragraf pertama. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Ini adalah paragraf kedua. Donec vel velit ultricies, fermentum velit eu, bibendum lectus.</p>
-  </body>
-</html>
-```
-
-Pada contoh di atas, CSS digunakan untuk mengatur tampilan halaman web dengan beberapa aturan sebagai berikut:
-
-- `body`: mengatur warna latar belakang halaman dan jenis huruf yang digunakan di seluruh halaman.
-- `h1`: mengatur warna, ukuran font, dan penempatan teks pada judul halaman.
-- `p`: mengatur warna, ukuran font, jarak baris, dan margin pada paragraf.
-
-Dengan menggunakan CSS, tampilan halaman web menjadi lebih menarik dan teratur. Kita dapat mengatur tampilan halaman web dengan lebih mudah dan efisien dengan menggunakan CSS, terutama pada halaman web yang memiliki banyak elemen dan konten.
-
-## Latihan Interaktif 1
+#### Latihan Interaktif 1
 
 Edit baris di bawah ini dengan menekan tombol *Edit on codepen* untuk mencoba elemen-elemen HTML lainnya sepert `<em>`, `<b>`, `<small>`, `<span>`, atau `<div>`. 
 
 [basic_html](https://codepen.io/faridsurya-uad/embed/OJzyPKo ':include :type=iframe width=100% height=400px')
 
 
-## Metadata dalam HTML
+### Metadata dalam HTML
 
 Metadata dokumen HTML adalah bagian yang tidak ditampilkan di browser web saat halaman dimuat. Bagian tersebut berisi informasi seperti halaman `<title>`, tautan ke file CSS , tautan ke favicon khusus, dan metadata lainnya.
 
-### Apa itu bagian `<head>` dalam HTML?
+#### Apa itu bagian `<head>` dalam HTML?
 
 Bagian head dalam HTML adalah bagian yang tidak ditampilkan pada halaman web. Bagian itu digunakan untuk melampirkan metadata. 
 
@@ -403,7 +373,7 @@ Bagian head dalam HTML adalah bagian yang tidak ditampilkan pada halaman web. Ba
 
 Bagian `<head>` pada kode HTML di atas memuat elemen `<meta>` dan `<title>`. Selain elemen tersebut, elemen lain seperti elemen untuk melampirkan file css dan javascript juga dituliskan pada bagian `<head>`. Pada aplikasi web yang kompleks, bagian `<head>` mungkin akan memuat banyak elemen.
 
-### Metadata untuk Platform Media Sosial
+#### Metadata untuk Platform Media Sosial
 
 Berikut ini adalah contoh metadata yang diletakkan pada bagian `<head>` agar website dapat ditangkap oleh platform media sosial seperti facebook:
 
@@ -421,3 +391,35 @@ Sebagian besar konten dibagikan ke Facebook melalui URL. Agar konten web muncul 
 
 Tanpa tag Open Graph ini, Facebook menggunakan cara internal untuk membuat perkiraan terbaik tentang judul, deskripsi, dan gambar pratinjau untuk konten Anda. Tentukan info ini secara jelas menggunakan tag Open Graph untuk memastikan postingan web tampil secara sempurna di Facebook.
 
+### **Studi Kasus: Membuat Halaman Web Pribadi**
+
+Pada pertemuan ini, Anda akan menerapkan pengetahuan HTML dasar untuk membuat halaman web pribadi sederhana. Halaman ini akan berisi informasi tentang diri Anda, hobi, dan tautan media sosial.
+
+### **Petunjuk Praktikum**
+
+1. Buka *text editor* Anda (misalnya VS Code).  
+2. Buat file baru dan simpan dengan nama index.html.  
+3. Tuliskan struktur dasar dokumen HTML seperti yang sudah dijelaskan di atas.  
+4. Di dalam tag \<body\>, buatlah:  
+   * Sebuah judul utama menggunakan tag \<h1\> berisi nama Anda.  
+   * Sebuah sub-judul menggunakan tag \<h2\> berisi profesi atau deskripsi singkat Anda.  
+   * Satu atau dua paragraf menggunakan tag \<p\> yang menceritakan tentang diri Anda.  
+   * Daftar hobi atau keahlian menggunakan tag \<ul\> atau \<ol\>.  
+   * Tambahkan foto profil Anda menggunakan tag \<img\>. Pastikan Anda memiliki URL atau file gambar yang benar.  
+   * Tambahkan tautan ke salah satu profil media sosial Anda menggunakan tag \<a\>.  
+5. Setelah selesai, simpan file index.html.  
+6. Buka file tersebut di browser Anda untuk melihat hasilnya.
+
+### **Hasil Akhir yang Diharapkan**
+
+Sebuah halaman web statis yang menampilkan informasi pribadi Anda, terstruktur dengan baik menggunakan tag-tag HTML yang sudah dipelajari.
+
+### **Petunjuk Pengumpulan Tugas**
+
+Untuk mengumpulkan tugas, ikuti langkah-langkah berikut:
+
+1. Buat repositori pribadi di GitLab dengan nama pertemuan-2-html-dasar.  
+2. *Push* (unggah) seluruh file tugas Anda (index.html dan gambar jika ada) ke repositori tersebut.  
+3. Pastikan repositori Anda **bersifat privat** dan hanya bisa diakses oleh Anda.  
+4. Berikan akses Reporter kepada dosen Anda di repositori tersebut.  
+5. *Link* repositori GitLab tersebut akan dimasukkan ke dalam *worksheet* Anda.

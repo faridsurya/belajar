@@ -1,4 +1,16 @@
-# Style HTML menggunakan CSS 
+# **Modul Pertemuan 3: CSS Dasar**
+
+## Tujuan Pembelajaran
+
+Setelah menyelesaikan modul ini, mahasiswa diharapkan mampu:
+
+* Memahami peran dan fungsi CSS dalam pengembangan web.  
+* Menerapkan CSS ke dalam dokumen HTML dengan tiga cara berbeda.  
+* Menggunakan *selector* CSS dasar untuk menargetkan elemen HTML.  
+* Mengubah tampilan visual elemen HTML dengan properti CSS dasar.  
+* Memahami dan menerapkan konsep *CSS Box Model*.  
+* Mengenali konsep dasar *layout*, *styling*, dan *typography* dalam CSS.  
+* Mengenal teknologi modern yang membantu penulisan CSS.
 
 ## Persyaratan
 
@@ -476,3 +488,24 @@ Dalam hasil akhir, animasi akan berjalan secara otomatis saat halaman web di-loa
 
 Terdapat banyak jenis animasi yang bisa dibuat menggunakan property `animation` dan keyframes `@keyframes`. Kita dapat menciptakan animasi seperti gerakan rotasi, efek perubahan warna, dan banyak lagi. Hal ini dapat meningkatkan tampilan website dan memberikan pengalaman pengguna yang lebih menarik.
 
+
+## Studi Kasus: Menghias Halaman Web Pribadi
+
+### Tugas
+
+Lanjutkan tugas dari pertemuan sebelumnya. Gunakan CSS untuk mendesain halaman web pribadi yang telah Anda buat dengan HTML. Terapkan gaya pada elemen-elemen berikut:
+
+1. Gunakan warna latar belakang yang berbeda untuk bagian *header*, konten utama, dan *footer*.  
+2. Ubah jenis *font* dan ukuran teks.  
+3. Berikan efek visual pada tautan (misalnya, ganti warna saat kursor di atasnya).  
+4. Atur jarak antar elemen menggunakan padding dan margin untuk tampilan yang rapi.
+
+### Petunjuk Pengumpulan
+
+1. Buat folder baru di repositori GitLab Anda dengan nama pertemuan-3.  
+2. Salin file index.html dari tugas Pertemuan 2 ke folder ini.  
+3. Buat file CSS eksternal baru bernama style.css di dalam folder pertemuan-3.  
+4. Hubungkan file style.css ke index.html menggunakan tag \<link\>.  
+5. Tulis kode CSS Anda di file style.css untuk menyelesaikan tugas.  
+6. Perbarui file index.html utama di *root* repositori Anda dengan menambahkan tautan ke tugas ini.  
+7. *Commit* dan *push* perubahan ke GitLab.
