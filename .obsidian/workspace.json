@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "4f394db016babd56",
+    "type": "split",
+    "children": [
+      {
+        "id": "12680571557dee91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9061ffd50a3b1aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "react_basic/content/Part 1 - Instalasi React.Js.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Part 1 - Instalasi React.Js"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "529655f8e966fd2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae6c5ee2e4b7f75a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef22814c748c923a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b44578130c77ca5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "025aef4051bb1b4a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef734fd868028fa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "aecaae90cec56e7e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "646ab2b3b1323f64",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "react_basic/content/Part 1 - Instalasi React.Js.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Part 1 - Instalasi React.Js"
+            }
+          },
+          {
+            "id": "a00303542c072d28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "react_basic/content/Part 1 - Instalasi React.Js.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Part 1 - Instalasi React.Js"
+            }
+          },
+          {
+            "id": "8fb2be03aa8b8e7f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5247197f5752e2b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "react_basic/content/Part 1 - Instalasi React.Js.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Part 1 - Instalasi React.Js"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f9061ffd50a3b1aa",
+  "lastOpenFiles": [
+    "react_basic/_sidebar.md",
+    "react_basic/content/Part 1 - Instalasi React.Js.md",
+    "react_basic/images",
+    "react_basic/content",
+    "vue_basic/_sidebar.md",
+    "_navbar.md",
+    "_sidebar.md",
+    "react_basic"
+  ]
+}
