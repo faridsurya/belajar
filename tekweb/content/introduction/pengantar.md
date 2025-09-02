@@ -19,11 +19,11 @@
 
 ## Bagaimana Aplikasi Web Berjalan?
 
-![](/home/farid/DOCS/belajar/tekweb/images/img_0_1.png)
+![](/tekweb/images/img_0_1.png)
 
 Gambar di atas menunjukkan skema teknologi web. Terdapat tiga komponen utama yaitu klien, jaringan, dan web server. Klien melakukan permintaan data melalui sebuah domain atau alamat IP yang mengarahkan pada sebuah halaman pada server. Jika alamat tersebut terhubung internet dan data tersedia maka server mengirimkan respon berupa dokumen kepada klien. Dokumen tersebut dapat berupa dokumen HTML, image, XML, JSON, dan beberapa dokumen lain yang dapat ditransmisikan melalui jaringan internet.
 
- ![](/home/farid/DOCS/belajar/tekweb/images/img_0_2.png)
+ ![](/tekweb/images/img_0_2.png)
 
 
 
